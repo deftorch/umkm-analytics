@@ -1,0 +1,355 @@
+# Configuration File untuk UMKM Analytics Platform
+# Copy file ini sebagai config.yaml dan sesuaikan dengan project Anda
+
+# ============================================
+# GCP PROJECT SETTINGS
+# ============================================
+gcp:
+  project_id: "your-project-id"  # Ganti dengan GCP Project ID Anda
+  region: "asia-southeast2"      # Jakarta region
+  zone: "asia-southeast2-a"
+  
+# ============================================
+# CLOUD STORAGE SETTINGS
+# ============================================
+storage:
+  bucket_name: "umkm-data-lake"
+  folders:
+    raw: "raw"
+    processed: "processed"
+    archive: "archive"
+    temp: "temp"
+  lifecycle:
+    raw_retention_days: 30
+    processed_retention_days: 90
+    archive_storage_class: "COLDLINE"
+
+# ============================================
+# BIGQUERY SETTINGS
+# ============================================
+bigquery:
+  dataset_id: "umkm_analytics"
+  location: "asia-southeast2"
+  
+  tables:
+    raw_sales:
+      name: "raw_sales_data"
+      partition_field: "ingestion_date"
+      clustering_fields: ["category", "product_id"]
+      
+    cleaned_sales:
+      name: "cleaned_sales_data"
+      partition_field: "sale_date"
+      clustering_fields: ["category", "product_id"]
+      
+    daily_summary:
+      name: "daily_summary"
+      partition_field: "summary_date"
+      
+    predictions:
+      name: "sales_predictions"
+      partition_field: "prediction_date"
+  
+  # Partition expiration in days
+  partition_expiration_days: 365
+  
+  # ML Models
+  ml_models:
+    sales_prediction:
+      name: "sales_prediction_model"
+      type: "LINEAR_REG"
+      training_data_months: 6
+
+# ============================================
+# CLOUD FUNCTIONS SETTINGS
+# ============================================
+cloud_functions:
+  data_ingestion:
+    name: "ingest-sales-data"
+    runtime: "python39"
+    memory: "256MB"
+    timeout: "540s"
+    max_instances: 10
+    entry_point: "ingest_data"
+    
+  data_validation:
+    name: "validate-sales-data"
+    runtime: "python39"
+    memory: "256MB"
+    timeout: "300s"
+    max_instances: 5
+    entry_point: "validate_data"
+
+# ============================================
+# CLOUD COMPOSER (AIRFLOW) SETTINGS
+# ============================================
+composer:
+  environment_name: "umkm-composer"
+  location: "asia-southeast2"
+  
+  # Environment size
+  node_count: 3
+  machine_type: "n1-standard-1"
+  disk_size_gb: 30
+  
+  # Airflow config overrides
+  airflow_config_overrides:
+    core-dags_are_paused_at_creation: "True"
+    core-max_active_runs_per_dag: "3"
+    scheduler-catchup_by_default: "False"
+  
+  # DAGs configuration
+  dags:
+    etl_pipeline:
+      schedule: "0 2 * * *"  # Daily at 2 AM
+      retries: 2
+      retry_delay_minutes: 5
+      
+    ml_training:
+      schedule: "0 3 * * 0"  # Weekly on Sunday at 3 AM
+      retries: 1
+      retry_delay_minutes: 10
+
+# ============================================
+# CLOUD SCHEDULER SETTINGS
+# ============================================
+scheduler:
+  jobs:
+    daily_ingestion:
+      name: "daily-sales-ingestion"
+      schedule: "0 1 * * *"  # Daily at 1 AM WIB
+      timezone: "Asia/Jakarta"
+      target: "pubsub"
+      topic: "data-ingestion-trigger"
+
+# ============================================
+# PUB/SUB SETTINGS
+# ============================================
+pubsub:
+  topics:
+    ingestion_trigger:
+      name: "data-ingestion-trigger"
+      message_retention_duration: "86400s"  # 24 hours
+    
+    etl_trigger:
+      name: "etl-pipeline-trigger"
+      message_retention_duration: "86400s"
+  
+  subscriptions:
+    ingestion_sub:
+      name: "data-ingestion-sub"
+      ack_deadline_seconds: 600
+
+# ============================================
+# DATA SOURCE SETTINGS
+# ============================================
+data_sources:
+  # API Configuration
+  api:
+    enabled: true
+    endpoints:
+      - name: "tokopedia_mock"
+        url: "https://api.example.com/products"
+        method: "GET"
+        auth_type: "bearer"  # bearer, api_key, none
+        rate_limit: 100  # requests per minute
+        
+  # CSV Upload
+  csv:
+    enabled: true
+    upload_folder: "gs://umkm-data-lake/uploads/"
+    delimiter: ","
+    encoding: "utf-8"
+    
+  # Sample data for testing
+  sample:
+    enabled: true
+    num_products: 100
+    date_range_days: 90
+
+# ============================================
+# SECRET MANAGER SETTINGS
+# ============================================
+secrets:
+  api_keys:
+    tokopedia: "projects/YOUR_PROJECT/secrets/tokopedia-api-key/versions/latest"
+    shopee: "projects/YOUR_PROJECT/secrets/shopee-api-key/versions/latest"
+  
+  database:
+    connection_string: "projects/YOUR_PROJECT/secrets/db-connection/versions/latest"
+
+# ============================================
+# MONITORING & ALERTING SETTINGS
+# ============================================
+monitoring:
+  # Log retention
+  log_retention_days: 30
+  
+  # Alert policies
+  alerts:
+    function_errors:
+      enabled: true
+      threshold: 3
+      duration_seconds: 300
+      notification_channels: ["email"]
+      
+    high_bigquery_cost:
+      enabled: true
+      threshold: 10  # USD per day
+      notification_channels: ["email"]
+      
+    storage_quota:
+      enabled: true
+      threshold_percent: 80
+      notification_channels: ["email"]
+  
+  # Notification channels
+  notification_channels:
+    email:
+      - "admin@example.com"
+      - "ops@example.com"
+
+# ============================================
+# LOOKER STUDIO SETTINGS
+# ============================================
+looker:
+  dashboard:
+    name: "UMKM Analytics Dashboard"
+    refresh_interval_minutes: 60
+    
+  reports:
+    executive:
+      name: "Executive Summary"
+      enabled: true
+      
+    price_analysis:
+      name: "Price Analysis"
+      enabled: true
+      
+    sales_trend:
+      name: "Sales Trend"
+      enabled: true
+      
+    predictions:
+      name: "ML Predictions"
+      enabled: true
+
+# ============================================
+# SECURITY SETTINGS
+# ============================================
+security:
+  # Service Accounts
+  service_accounts:
+    cloud_function:
+      name: "cloud-function-sa"
+      roles:
+        - "roles/storage.objectCreator"
+        - "roles/secretmanager.secretAccessor"
+        
+    composer:
+      name: "composer-sa"
+      roles:
+        - "roles/bigquery.dataEditor"
+        - "roles/storage.objectAdmin"
+        
+    looker:
+      name: "looker-sa"
+      roles:
+        - "roles/bigquery.dataViewer"
+  
+  # VPC Service Controls
+  vpc:
+    enabled: false  # Set true untuk production
+    perimeter_name: "umkm-analytics-perimeter"
+
+# ============================================
+# COST OPTIMIZATION SETTINGS
+# ============================================
+cost_optimization:
+  # Budget alerts
+  budget:
+    amount: 200  # USD per month
+    threshold_percents: [50, 80, 100]
+    
+  # Auto-scaling
+  autoscaling:
+    enabled: true
+    min_instances: 1
+    max_instances: 10
+    
+  # Data lifecycle
+  lifecycle_rules:
+    - action: "Delete"
+      condition:
+        age_days: 365
+        matches_prefix: ["archive/"]
+
+# ============================================
+# TESTING & DEVELOPMENT SETTINGS
+# ============================================
+testing:
+  # Test mode (menggunakan sample data)
+  test_mode: false
+  
+  # Development endpoints
+  dev:
+    use_emulators: false
+    bigquery_project: "dev-project"
+    storage_bucket: "dev-umkm-data-lake"
+
+# ============================================
+# FEATURE FLAGS
+# ============================================
+features:
+  ml_predictions: true
+  anomaly_detection: false  # Coming soon
+  real_time_processing: false  # Coming soon
+  advanced_analytics: true
+  email_reports: true
+  slack_notifications: false
+
+# ============================================
+# LOGGING SETTINGS
+# ============================================
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  format: "json"
+  
+  # Log specific components
+  components:
+    cloud_function: "INFO"
+    composer: "INFO"
+    bigquery: "WARNING"
+
+# ============================================
+# PERFORMANCE SETTINGS
+# ============================================
+performance:
+  bigquery:
+    # Maximum bytes billed per query
+    maximum_bytes_billed: 10737418240  # 10 GB
+    
+    # Use BI Engine
+    use_bi_engine: false
+    bi_engine_capacity_gb: 0
+    
+  composer:
+    # Worker concurrency
+    worker_concurrency: 16
+    parallelism: 32
+
+# ============================================
+# BACKUP & DISASTER RECOVERY
+# ============================================
+backup:
+  enabled: true
+  
+  bigquery:
+    snapshot_schedule: "0 0 * * *"  # Daily at midnight
+    retention_days: 7
+    
+  storage:
+    versioning: true
+    
+  composer:
+    backup_schedule: "0 0 * * 0"  # Weekly on Sunday
