@@ -1,0 +1,24 @@
+name: Deploy to GCP
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Cloud SDK
+      uses: google-github-actions/setup-gcloud@v0
+      with:
+        project_id: ${{ secrets.GCP_PROJECT }}
+        service_account_key: ${{ secrets.GCP_SA_KEY }}
+
+    - name: Deploy Cloud Functions
+      run: |
+        gcloud functions deploy data-ingestion \
+          --source=cloud-functions/data-ingestion \
+          --trigger-topic=etl-trigger \
+          --runtime=python39

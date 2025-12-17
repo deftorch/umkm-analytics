@@ -1,0 +1,15 @@
+# Monitoring configuration for Cost
+
+high_costs:
+  displayName: "High Cost Alert"
+  documentation:
+    content: "Daily cost has exceeded the budget."
+  userLabels:
+    severity: "warning"
+  conditions:
+    - displayName: "Daily Cost > $50"
+      conditionThreshold:
+        filter: 'resource.type = "global" AND metric.type = "billing.googleapis.com/daily_cost"'
+        comparison: "COMPARISON_GT"
+        thresholdValue: 50
+        duration: "86400s"
