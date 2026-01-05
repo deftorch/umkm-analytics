@@ -5,7 +5,7 @@
 # GCP PROJECT SETTINGS
 # ============================================
 gcp:
-  project_id: "your-project-id"  # Ganti dengan GCP Project ID Anda
+  project_id: "ipsd-483408"  # Ganti dengan GCP Project ID Anda
   region: "asia-southeast2"      # Jakarta region
   zone: "asia-southeast2-a"
   
@@ -244,23 +244,27 @@ security:
       name: "cloud-function-sa"
       roles:
         - "roles/storage.objectCreator"
-        - "roles/secretmanager.secretAccessor"
-        
-    composer:
-      name: "composer-sa"
-      roles:
         - "roles/bigquery.dataEditor"
-        - "roles/storage.objectAdmin"
+        - "roles/pubsub.publisher"
+        
+    # Note: Composer SA not needed for free tier
+    # composer:
+    #   name: "composer-sa"
+    #   roles:
+    #     - "roles/bigquery.dataEditor"
+    #     - "roles/storage.objectAdmin"
         
     looker:
       name: "looker-sa"
       roles:
         - "roles/bigquery.dataViewer"
   
-  # VPC Service Controls
-  vpc:
-    enabled: false  # Set true untuk production
-    perimeter_name: "umkm-analytics-perimeter"
+  # Secrets Management (FREE TIER: Use Environment Variables)
+  # Instead of Secret Manager, use:
+  # 1. Cloud Functions environment variables
+  # 2. .env file for local development
+  # 3. GitHub Secrets for CI/CD
+  secrets_alternative: "environment_variables"
 
 # ============================================
 # COST OPTIMIZATION SETTINGS

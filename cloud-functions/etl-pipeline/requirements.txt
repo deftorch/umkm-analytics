@@ -1,5 +1,5 @@
 google-cloud-storage==2.14.0
+google-cloud-bigquery==3.14.1
 google-cloud-pubsub==2.19.0
-requests==2.31.0
 functions-framework==3.5.0
 cloudevents==1.10.1

@@ -4,7 +4,7 @@ Mengambil data dari API/sumber eksternal dan menyimpan ke Cloud Storage
 """
 
 import functions_framework
-from google.cloud import storage, secretmanager
+from google.cloud import storage
 from google.cloud import pubsub_v1
 import requests
 import json
@@ -24,14 +24,20 @@ RAW_FOLDER = os.environ.get('RAW_FOLDER', 'raw')
 
 
 def get_secret(secret_id):
-    """Ambil secret dari Secret Manager"""
-    try:
-        client = secretmanager.SecretManagerServiceClient()
-        name = f"projects/{PROJECT_ID}/secrets/{secret_id}/versions/latest"
-        response = client.access_secret_version(request={"name": name})
-        return response.payload.data.decode('UTF-8')
-    except Exception as e:
-        logger.warning(f"Failed to get secret {secret_id}: {e}")
+    """
+    Ambil secret dari environment variable (alternatif gratis untuk Secret Manager)
+    Secret disimpan di .env file atau Cloud Functions environment variables
+    """
+    # Normalize secret_id ke environment variable format
+    env_key = secret_id.upper().replace('-', '_').replace('.', '_')
+    
+    secret_value = os.environ.get(env_key)
+    
+    if secret_value:
+        logger.info(f"Secret {secret_id} loaded from environment variable")
+        return secret_value
+    else:
+        logger.warning(f"Secret {secret_id} not found in environment variables")
         return None
 
 

@@ -1,22 +1,18 @@
 # ============================================
 # Python Dependencies untuk UMKM Analytics Platform
+# VERSI FREE TIER - Tanpa Composer/Airflow
 # ============================================
 
-# Core Google Cloud Libraries
+# Core Google Cloud Libraries (FREE TIER)
 google-cloud-storage==2.14.0
 google-cloud-bigquery==3.14.1
 google-cloud-pubsub==2.19.0
-google-cloud-secret-manager==2.18.0
 google-cloud-logging==3.9.0
 google-cloud-monitoring==2.18.0
 
 # Cloud Functions Framework
 functions-framework==3.5.0
 cloudevents==1.10.1
-
-# Apache Airflow & Providers (untuk Composer)
-apache-airflow==2.8.0
-apache-airflow-providers-google==10.13.0
 
 # Data Processing
 pandas==2.1.4
@@ -33,6 +29,7 @@ jsonschema==4.20.0
 # Utilities
 python-dateutil==2.8.2
 pytz==2023.3
+python-dotenv==1.0.0  # Untuk load .env files (alternatif Secret Manager)
 
 # Testing
 pytest==7.4.3
@@ -50,3 +47,10 @@ pyyaml==6.0.1
 # Development
 ipython==8.19.0
 jupyter==1.0.0
+
+# ============================================
+# OPTIONAL: Uncomment jika pakai Cloud Composer (BERBAYAR)
+# ============================================
+# google-cloud-secret-manager==2.18.0
+# apache-airflow==2.8.0
+# apache-airflow-providers-google==10.13.0
