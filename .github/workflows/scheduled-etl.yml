@@ -1,0 +1,53 @@
+# ============================================
+# Scheduled Data Pipeline - UMKM Analytics
+# Alternatif GRATIS untuk Cloud Scheduler
+# ============================================
+
+name: Scheduled Data Pipeline
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Daily at 2 AM UTC (9 AM WIB)
+  workflow_dispatch:  # Manual trigger
+
+env:
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  DATASET_ID: umkm_analytics
+  LOCATION: asia-southeast2
+
+jobs:
+  run-etl:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install pandas google-cloud-bigquery pyarrow db-dtypes
+      
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+      
+      - name: Run ETL Script
+        run: |
+          python scripts/run_etl.py
+        env:
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          BQ_DATASET: umkm_analytics
+
+      - name: Notify Success
+        if: success()
+        run: echo "✅ ETL Pipeline completed successfully!"
+      
+      - name: Notify Failure
+        if: failure()
+        run: echo "❌ ETL Pipeline failed!"

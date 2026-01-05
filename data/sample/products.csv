@@ -1,0 +1,75 @@
+product_id,product_name,category,price,original_price,stock,seller_name,seller_location,rating,review_count
+UMKM00001,Keripik Singkong,Makanan & Minuman,148081,160793,84,Rumah Makmur 18,Bogor,3.8,125
+UMKM00002,Sambal Bu Rudy,Makanan & Minuman,59633,61993,46,UD Maju 27,Jakarta Selatan,4.9,200
+UMKM00003,Kopi Toraja,Makanan & Minuman,26775,33320,355,Warung Sukses 90,Semarang,4.7,376
+UMKM00004,Rendang Padang,Makanan & Minuman,95438,97020,408,UD Jaya 75,Semarang,4.1,254
+UMKM00005,Dodol Garut,Makanan & Minuman,25950,31098,284,Kedai Maju 54,Depok,4.1,448
+UMKM00006,Bakpia Jogja,Makanan & Minuman,66552,82965,179,Toko Sejahtera 18,Palembang,3.9,265
+UMKM00007,Kue Lapis,Makanan & Minuman,18972,20491,65,Kedai Abadi 12,Tangerang,4.0,0
+UMKM00008,Teh Pucuk,Makanan & Minuman,19745,21640,478,Toko Sentosa 3,Solo,4.6,485
+UMKM00009,Jamu Tradisional,Makanan & Minuman,17390,19164,44,Rumah Jaya 9,Palembang,4.2,468
+UMKM00010,Madu Hutan,Makanan & Minuman,143348,183148,483,Rumah Jaya 19,Solo,3.7,92
+UMKM00011,Gula Aren,Makanan & Minuman,42748,46690,148,UD Makmur 16,Depok,3.5,101
+UMKM00012,Kerupuk Udang,Makanan & Minuman,39199,46883,224,Rumah Jaya 82,Semarang,4.2,129
+UMKM00013,Abon Sapi,Makanan & Minuman,64359,72141,11,CV Jaya 21,Malang,4.9,68
+UMKM00014,Ikan Asin,Makanan & Minuman,67877,74766,328,Rumah Maju 82,Yogyakarta,3.9,111
+UMKM00015,Batik Pekalongan,Fashion & Pakaian,618292,798597,365,CV Mandiri 14,Depok,4.4,144
+UMKM00016,Tenun Ikat,Fashion & Pakaian,660332,741922,143,Gerai Gemilang 59,Bandung,4.5,181
+UMKM00017,Kebaya Modern,Fashion & Pakaian,405398,440386,454,Toko Maju 40,Malang,3.7,228
+UMKM00018,Sarung Samarinda,Fashion & Pakaian,392284,470082,163,Toko Gemilang 39,Malang,3.6,39
+UMKM00019,Tas Anyaman,Fashion & Pakaian,109622,121769,485,Kedai Mandiri 74,Medan,3.7,12
+UMKM00020,Sepatu Kulit,Fashion & Pakaian,492844,498808,229,Kedai Gemilang 19,Depok,4.4,431
+UMKM00021,Kaos Distro,Fashion & Pakaian,473857,474286,360,Rumah Prima 51,Makassar,4.1,334
+UMKM00022,Hijab Premium,Fashion & Pakaian,141966,143241,87,UD Makmur 3,Semarang,3.8,114
+UMKM00023,Sandal Jepit,Fashion & Pakaian,81773,85606,53,Rumah Abadi 90,Jakarta Selatan,4.5,369
+UMKM00024,Topi Anyaman,Fashion & Pakaian,171166,204947,431,CV Prima 28,Bandung,4.9,485
+UMKM00025,Gelang Etnik,Fashion & Pakaian,180049,215162,99,Warung Sejahtera 27,Makassar,3.6,280
+UMKM00026,Kalung Mutiara,Fashion & Pakaian,428940,516179,160,Gerai Barokah 7,Tangerang,3.5,166
+UMKM00027,Charger Universal,Elektronik,337885,341296,426,Rumah Jaya 57,Denpasar,4.9,81
+UMKM00028,Kabel Data,Elektronik,187037,194659,467,UD Sentosa 59,Tangerang,4.9,347
+UMKM00029,Earphone Murah,Elektronik,97243,103218,97,Rumah Barokah 51,Denpasar,4.1,102
+UMKM00030,Powerbank Lokal,Elektronik,363722,416058,177,Kedai Jaya 68,Malang,4.3,426
+UMKM00031,Lampu LED,Elektronik,346956,350499,319,Kedai Sukses 62,Semarang,4.6,291
+UMKM00032,Kipas Mini,Elektronik,453962,521154,238,Rumah Barokah 30,Tangerang,4.7,474
+UMKM00033,Speaker Bluetooth,Elektronik,418685,481067,472,Toko Sukses 71,Denpasar,4.4,168
+UMKM00034,Holder HP,Elektronik,299096,307148,360,CV Sentosa 78,Jakarta Pusat,3.5,159
+UMKM00035,Sabun Herbal,Kesehatan & Kecantikan,107444,128606,153,Rumah Barokah 92,Solo,4.8,300
+UMKM00036,Minyak Kayu Putih,Kesehatan & Kecantikan,223474,276172,153,CV Jaya 8,Bogor,4.1,15
+UMKM00037,Masker Wajah,Kesehatan & Kecantikan,93789,116004,183,CV Prima 48,Palembang,4.9,403
+UMKM00038,Lulur Tradisional,Kesehatan & Kecantikan,140310,144690,307,Toko Barokah 41,Solo,3.7,173
+UMKM00039,Shampoo Lidah Buaya,Kesehatan & Kecantikan,162650,172051,194,Kedai Gemilang 56,Denpasar,3.6,270
+UMKM00040,Minyak Kemiri,Kesehatan & Kecantikan,88468,101518,465,CV Sejahtera 1,Bogor,3.7,294
+UMKM00041,Bedak Dingin,Kesehatan & Kecantikan,108640,120816,23,Toko Berkah 71,Jakarta Pusat,4.1,38
+UMKM00042,Lipstik Lokal,Kesehatan & Kecantikan,177422,187702,404,CV Barokah 74,Solo,4.8,166
+UMKM00043,Sapu Ijuk,Rumah Tangga,26534,27609,223,UD Sukses 81,Bogor,4.5,247
+UMKM00044,Ember Plastik,Rumah Tangga,38829,48633,219,Rumah Barokah 75,Makassar,4.5,54
+UMKM00045,Rak Bambu,Rumah Tangga,68224,83944,473,Rumah Barokah 17,Tangerang,4.3,357
+UMKM00046,Tikar Pandan,Rumah Tangga,232355,247094,376,Gerai Barokah 3,Makassar,3.8,425
+UMKM00047,Tempat Sampah,Rumah Tangga,116707,138199,373,Gerai Mandiri 91,Semarang,4.3,446
+UMKM00048,Gantungan Baju,Rumah Tangga,143757,177983,214,Gerai Barokah 24,Palembang,4.4,25
+UMKM00049,Keset Kaki,Rumah Tangga,203513,205569,268,Toko Gemilang 28,Semarang,4.3,309
+UMKM00050,Taplak Meja Batik,Rumah Tangga,54577,69484,425,Warung Abadi 37,Solo,3.5,376
+UMKM00051,Wayang Kulit,Kerajinan Tangan,970631,982141,456,Gerai Berkah 33,Jakarta Selatan,4.0,448
+UMKM00052,Ukiran Kayu,Kerajinan Tangan,213174,223910,251,UD Mandiri 67,Bandung,4.0,61
+UMKM00053,Patung Bali,Kerajinan Tangan,484960,626937,331,Toko Mandiri 1,Palembang,4.1,385
+UMKM00054,Lukisan Kaca,Kerajinan Tangan,76238,92360,144,Toko Sejahtera 7,Bandung,3.6,308
+UMKM00055,Tas Rajut,Kerajinan Tangan,369080,443091,266,Gerai Maju 84,Jakarta Pusat,4.0,138
+UMKM00056,Boneka Kayu,Kerajinan Tangan,310551,385082,231,Rumah Prima 26,Bekasi,4.3,287
+UMKM00057,Topeng Malang,Kerajinan Tangan,439288,552123,75,Kedai Jaya 20,Yogyakarta,4.8,269
+UMKM00058,Keramik Kasongan,Kerajinan Tangan,311099,398454,110,CV Sentosa 17,Surabaya,5.0,495
+UMKM00059,Beras Organik,Pertanian,201364,241761,101,Kedai Abadi 57,Jakarta Selatan,4.6,120
+UMKM00060,Sayur Hidroponik,Pertanian,179698,195535,428,Toko Maju 5,Bandung,3.9,80
+UMKM00061,Buah Lokal,Pertanian,145908,183689,246,Kedai Makmur 46,Yogyakarta,4.4,242
+UMKM00062,Rempah Segar,Pertanian,103659,114087,196,UD Prima 18,Bekasi,3.6,172
+UMKM00063,Pupuk Organik,Pertanian,176015,212740,144,Toko Sukses 28,Medan,4.7,404
+UMKM00064,Bibit Tanaman,Pertanian,106896,119573,251,Toko Makmur 47,Tangerang,3.6,318
+UMKM00065,Minyak Kelapa,Pertanian,152291,197294,107,Gerai Maju 39,Jakarta Selatan,3.7,429
+UMKM00066,Santan Instan,Pertanian,94443,94557,13,Kedai Gemilang 82,Bandung,3.7,84
+UMKM00067,Jasa Jahit,Jasa,52802,53704,93,Gerai Prima 60,Jakarta Pusat,4.1,291
+UMKM00068,Laundry Kiloan,Jasa,245880,283421,53,Rumah Barokah 70,Tangerang,4.1,316
+UMKM00069,Catering Rumahan,Jasa,118406,146866,368,CV Berkah 81,Depok,3.6,79
+UMKM00070,Service HP,Jasa,148194,154620,45,Gerai Berkah 39,Makassar,4.4,317
+UMKM00071,Cuci Motor,Jasa,112745,144420,108,CV Barokah 2,Makassar,4.2,486
+UMKM00072,Potong Rambut,Jasa,158921,169802,126,Kedai Barokah 46,Yogyakarta,4.5,414
+UMKM00073,Fotocopy,Jasa,142492,173931,500,Gerai Abadi 59,Makassar,3.7,131
+UMKM00074,Warnet,Jasa,158395,198265,146,Gerai Abadi 17,Makassar,5.0,283

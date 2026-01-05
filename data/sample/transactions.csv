@@ -1,0 +1,501 @@
+transaction_id,product_id,product_name,category,price,discount_percent,actual_price,quantity,total_amount,seller_name,seller_location,sale_date,sale_month,day_of_week
+TRX000001,UMKM00058,Keramik Kasongan,Kerajinan Tangan,311099,5,295544,2,591088,CV Sentosa 17,Surabaya,2025-10-14,2025-10,Tuesday
+TRX000002,UMKM00024,Topi Anyaman,Fashion & Pakaian,171166,20,136932,3,410798,CV Prima 28,Bandung,2025-11-03,2025-11,Monday
+TRX000003,UMKM00063,Pupuk Organik,Pertanian,176015,5,167214,8,1337714,Toko Sukses 28,Medan,2025-12-27,2025-12,Saturday
+TRX000004,UMKM00011,Gula Aren,Makanan & Minuman,42748,0,42748,16,683968,UD Makmur 16,Depok,2025-12-22,2025-12,Monday
+TRX000005,UMKM00052,Ukiran Kayu,Kerajinan Tangan,213174,0,213174,2,426348,UD Mandiri 67,Bandung,2025-10-07,2025-10,Tuesday
+TRX000006,UMKM00014,Ikan Asin,Makanan & Minuman,67877,25,50907,10,509077,Rumah Maju 82,Yogyakarta,2025-11-24,2025-11,Monday
+TRX000007,UMKM00045,Rak Bambu,Rumah Tangga,68224,15,57990,4,231961,Rumah Barokah 17,Tangerang,2025-11-02,2025-11,Sunday
+TRX000008,UMKM00007,Kue Lapis,Makanan & Minuman,18972,0,18972,12,227664,Kedai Abadi 12,Tangerang,2026-01-02,2026-01,Friday
+TRX000009,UMKM00071,Cuci Motor,Jasa,112745,15,95833,8,766666,CV Barokah 2,Makassar,2025-12-23,2025-12,Tuesday
+TRX000010,UMKM00019,Tas Anyaman,Fashion & Pakaian,109622,25,82216,1,82216,Kedai Mandiri 74,Medan,2025-11-14,2025-11,Friday
+TRX000011,UMKM00013,Abon Sapi,Makanan & Minuman,64359,10,57923,7,405461,CV Jaya 21,Malang,2025-11-11,2025-11,Tuesday
+TRX000012,UMKM00034,Holder HP,Elektronik,299096,15,254231,4,1016926,CV Sentosa 78,Jakarta Pusat,2025-12-04,2025-12,Thursday
+TRX000013,UMKM00063,Pupuk Organik,Pertanian,176015,15,149612,5,748063,Toko Sukses 28,Medan,2025-10-29,2025-10,Wednesday
+TRX000014,UMKM00032,Kipas Mini,Elektronik,453962,20,363169,2,726339,Rumah Barokah 30,Tangerang,2025-11-04,2025-11,Tuesday
+TRX000015,UMKM00025,Gelang Etnik,Fashion & Pakaian,180049,0,180049,5,900245,Warung Sejahtera 27,Makassar,2026-01-03,2026-01,Saturday
+TRX000016,UMKM00014,Ikan Asin,Makanan & Minuman,67877,5,64483,10,644831,Rumah Maju 82,Yogyakarta,2025-11-30,2025-11,Sunday
+TRX000017,UMKM00045,Rak Bambu,Rumah Tangga,68224,0,68224,7,477568,Rumah Barokah 17,Tangerang,2025-12-05,2025-12,Friday
+TRX000018,UMKM00005,Dodol Garut,Makanan & Minuman,25950,10,23355,4,93420,Kedai Maju 54,Depok,2025-12-11,2025-12,Thursday
+TRX000019,UMKM00030,Powerbank Lokal,Elektronik,363722,25,272791,3,818374,Kedai Jaya 68,Malang,2025-10-09,2025-10,Thursday
+TRX000020,UMKM00021,Kaos Distro,Fashion & Pakaian,473857,0,473857,3,1421571,Rumah Prima 51,Makassar,2025-10-11,2025-10,Saturday
+TRX000021,UMKM00025,Gelang Etnik,Fashion & Pakaian,180049,20,144039,1,144039,Warung Sejahtera 27,Makassar,2025-11-27,2025-11,Thursday
+TRX000022,UMKM00011,Gula Aren,Makanan & Minuman,42748,25,32061,19,609159,UD Makmur 16,Depok,2025-11-30,2025-11,Sunday
+TRX000023,UMKM00072,Potong Rambut,Jasa,158921,20,127136,8,1017094,Kedai Barokah 46,Yogyakarta,2025-12-20,2025-12,Saturday
+TRX000024,UMKM00035,Sabun Herbal,Kesehatan & Kecantikan,107444,5,102071,5,510358,Rumah Barokah 92,Solo,2026-01-01,2026-01,Thursday
+TRX000025,UMKM00014,Ikan Asin,Makanan & Minuman,67877,0,67877,10,678770,Rumah Maju 82,Yogyakarta,2025-12-14,2025-12,Sunday
+TRX000026,UMKM00067,Jasa Jahit,Jasa,52802,5,50161,8,401295,Gerai Prima 60,Jakarta Pusat,2025-10-17,2025-10,Friday
+TRX000027,UMKM00074,Warnet,Jasa,158395,0,158395,3,475185,Gerai Abadi 17,Makassar,2025-10-12,2025-10,Sunday
+TRX000028,UMKM00036,Minyak Kayu Putih,Kesehatan & Kecantikan,223474,10,201126,2,402253,CV Jaya 8,Bogor,2025-10-27,2025-10,Monday
+TRX000029,UMKM00028,Kabel Data,Elektronik,187037,25,140277,9,1262499,UD Sentosa 59,Tangerang,2025-12-29,2025-12,Monday
+TRX000030,UMKM00014,Ikan Asin,Makanan & Minuman,67877,25,50907,9,458169,Rumah Maju 82,Yogyakarta,2025-11-20,2025-11,Thursday
+TRX000031,UMKM00064,Bibit Tanaman,Pertanian,106896,15,90861,5,454307,Toko Makmur 47,Tangerang,2025-10-23,2025-10,Thursday
+TRX000032,UMKM00072,Potong Rambut,Jasa,158921,0,158921,1,158921,Kedai Barokah 46,Yogyakarta,2025-12-21,2025-12,Sunday
+TRX000033,UMKM00066,Santan Instan,Pertanian,94443,15,80276,6,481659,Kedai Gemilang 82,Bandung,2025-10-25,2025-10,Saturday
+TRX000034,UMKM00060,Sayur Hidroponik,Pertanian,179698,0,179698,1,179698,Toko Maju 5,Bandung,2025-10-08,2025-10,Wednesday
+TRX000035,UMKM00004,Rendang Padang,Makanan & Minuman,95438,0,95438,8,763504,UD Jaya 75,Semarang,2025-11-02,2025-11,Sunday
+TRX000036,UMKM00009,Jamu Tradisional,Makanan & Minuman,17390,20,13912,5,69560,Rumah Jaya 9,Palembang,2025-10-08,2025-10,Wednesday
+TRX000037,UMKM00050,Taplak Meja Batik,Rumah Tangga,54577,0,54577,4,218308,Warung Abadi 37,Solo,2026-01-05,2026-01,Monday
+TRX000038,UMKM00046,Tikar Pandan,Rumah Tangga,232355,0,232355,1,232355,Gerai Barokah 3,Makassar,2025-10-13,2025-10,Monday
+TRX000039,UMKM00054,Lukisan Kaca,Kerajinan Tangan,76238,5,72426,10,724260,Toko Sejahtera 7,Bandung,2025-12-02,2025-12,Tuesday
+TRX000040,UMKM00031,Lampu LED,Elektronik,346956,0,346956,3,1040868,Kedai Sukses 62,Semarang,2025-11-10,2025-11,Monday
+TRX000041,UMKM00071,Cuci Motor,Jasa,112745,25,84558,4,338235,CV Barokah 2,Makassar,2025-10-30,2025-10,Thursday
+TRX000042,UMKM00055,Tas Rajut,Kerajinan Tangan,369080,10,332172,2,664344,Gerai Maju 84,Jakarta Pusat,2026-01-02,2026-01,Friday
+TRX000043,UMKM00040,Minyak Kemiri,Kesehatan & Kecantikan,88468,0,88468,6,530808,CV Sejahtera 1,Bogor,2025-10-19,2025-10,Sunday
+TRX000044,UMKM00047,Tempat Sampah,Rumah Tangga,116707,5,110871,5,554358,Gerai Mandiri 91,Semarang,2025-12-14,2025-12,Sunday
+TRX000045,UMKM00007,Kue Lapis,Makanan & Minuman,18972,15,16126,7,112883,Kedai Abadi 12,Tangerang,2025-11-24,2025-11,Monday
+TRX000046,UMKM00052,Ukiran Kayu,Kerajinan Tangan,213174,5,202515,5,1012576,UD Mandiri 67,Bandung,2025-12-14,2025-12,Sunday
+TRX000047,UMKM00023,Sandal Jepit,Fashion & Pakaian,81773,0,81773,6,490638,Rumah Abadi 90,Jakarta Selatan,2025-11-03,2025-11,Monday
+TRX000048,UMKM00020,Sepatu Kulit,Fashion & Pakaian,492844,0,492844,4,1971376,Kedai Gemilang 19,Depok,2025-11-27,2025-11,Thursday
+TRX000049,UMKM00065,Minyak Kelapa,Pertanian,152291,10,137061,1,137061,Gerai Maju 39,Jakarta Selatan,2025-12-28,2025-12,Sunday
+TRX000050,UMKM00032,Kipas Mini,Elektronik,453962,15,385867,1,385867,Rumah Barokah 30,Tangerang,2025-12-07,2025-12,Sunday
+TRX000051,UMKM00068,Laundry Kiloan,Jasa,245880,10,221292,3,663876,Rumah Barokah 70,Tangerang,2025-12-18,2025-12,Thursday
+TRX000052,UMKM00019,Tas Anyaman,Fashion & Pakaian,109622,0,109622,7,767354,Kedai Mandiri 74,Medan,2025-11-15,2025-11,Saturday
+TRX000053,UMKM00016,Tenun Ikat,Fashion & Pakaian,660332,25,495249,3,1485747,Gerai Gemilang 59,Bandung,2025-12-29,2025-12,Monday
+TRX000054,UMKM00026,Kalung Mutiara,Fashion & Pakaian,428940,20,343152,4,1372608,Gerai Barokah 7,Tangerang,2025-12-01,2025-12,Monday
+TRX000055,UMKM00001,Keripik Singkong,Makanan & Minuman,148081,0,148081,9,1332729,Rumah Makmur 18,Bogor,2025-12-17,2025-12,Wednesday
+TRX000056,UMKM00014,Ikan Asin,Makanan & Minuman,67877,25,50907,5,254538,Rumah Maju 82,Yogyakarta,2025-12-31,2025-12,Wednesday
+TRX000057,UMKM00041,Bedak Dingin,Kesehatan & Kecantikan,108640,25,81480,3,244440,Toko Berkah 71,Jakarta Pusat,2025-12-17,2025-12,Wednesday
+TRX000058,UMKM00025,Gelang Etnik,Fashion & Pakaian,180049,10,162044,3,486132,Warung Sejahtera 27,Makassar,2025-11-28,2025-11,Friday
+TRX000059,UMKM00054,Lukisan Kaca,Kerajinan Tangan,76238,25,57178,8,457428,Toko Sejahtera 7,Bandung,2025-11-20,2025-11,Thursday
+TRX000060,UMKM00029,Earphone Murah,Elektronik,97243,25,72932,3,218796,Rumah Barokah 51,Denpasar,2025-12-28,2025-12,Sunday
+TRX000061,UMKM00006,Bakpia Jogja,Makanan & Minuman,66552,5,63224,6,379346,Toko Sejahtera 18,Palembang,2025-12-30,2025-12,Tuesday
+TRX000062,UMKM00045,Rak Bambu,Rumah Tangga,68224,10,61401,6,368409,Rumah Barokah 17,Tangerang,2025-11-06,2025-11,Thursday
+TRX000063,UMKM00059,Beras Organik,Pertanian,201364,25,151023,4,604092,Kedai Abadi 57,Jakarta Selatan,2025-10-22,2025-10,Wednesday
+TRX000064,UMKM00002,Sambal Bu Rudy,Makanan & Minuman,59633,20,47706,4,190825,UD Maju 27,Jakarta Selatan,2025-12-20,2025-12,Saturday
+TRX000065,UMKM00050,Taplak Meja Batik,Rumah Tangga,54577,0,54577,10,545770,Warung Abadi 37,Solo,2025-11-28,2025-11,Friday
+TRX000066,UMKM00035,Sabun Herbal,Kesehatan & Kecantikan,107444,15,91327,1,91327,Rumah Barokah 92,Solo,2026-01-03,2026-01,Saturday
+TRX000067,UMKM00036,Minyak Kayu Putih,Kesehatan & Kecantikan,223474,5,212300,5,1061501,CV Jaya 8,Bogor,2025-10-28,2025-10,Tuesday
+TRX000068,UMKM00056,Boneka Kayu,Kerajinan Tangan,310551,10,279495,2,558991,Rumah Prima 26,Bekasi,2025-12-18,2025-12,Thursday
+TRX000069,UMKM00052,Ukiran Kayu,Kerajinan Tangan,213174,0,213174,3,639522,UD Mandiri 67,Bandung,2025-11-14,2025-11,Friday
+TRX000070,UMKM00008,Teh Pucuk,Makanan & Minuman,19745,20,15796,8,126368,Toko Sentosa 3,Solo,2025-11-08,2025-11,Saturday
+TRX000071,UMKM00067,Jasa Jahit,Jasa,52802,10,47521,3,142565,Gerai Prima 60,Jakarta Pusat,2025-12-05,2025-12,Friday
+TRX000072,UMKM00004,Rendang Padang,Makanan & Minuman,95438,5,90666,3,271998,UD Jaya 75,Semarang,2025-11-19,2025-11,Wednesday
+TRX000073,UMKM00065,Minyak Kelapa,Pertanian,152291,20,121832,6,730996,Gerai Maju 39,Jakarta Selatan,2025-12-30,2025-12,Tuesday
+TRX000074,UMKM00047,Tempat Sampah,Rumah Tangga,116707,10,105036,7,735254,Gerai Mandiri 91,Semarang,2025-11-05,2025-11,Wednesday
+TRX000075,UMKM00024,Topi Anyaman,Fashion & Pakaian,171166,10,154049,10,1540494,CV Prima 28,Bandung,2025-11-20,2025-11,Thursday
+TRX000076,UMKM00049,Keset Kaki,Rumah Tangga,203513,0,203513,1,203513,Toko Gemilang 28,Semarang,2025-12-03,2025-12,Wednesday
+TRX000077,UMKM00068,Laundry Kiloan,Jasa,245880,25,184410,2,368820,Rumah Barokah 70,Tangerang,2025-12-18,2025-12,Thursday
+TRX000078,UMKM00004,Rendang Padang,Makanan & Minuman,95438,15,81122,2,162244,UD Jaya 75,Semarang,2025-10-16,2025-10,Thursday
+TRX000079,UMKM00033,Speaker Bluetooth,Elektronik,418685,25,314013,3,942041,Toko Sukses 71,Denpasar,2025-12-25,2025-12,Thursday
+TRX000080,UMKM00023,Sandal Jepit,Fashion & Pakaian,81773,0,81773,3,245319,Rumah Abadi 90,Jakarta Selatan,2025-11-01,2025-11,Saturday
+TRX000081,UMKM00028,Kabel Data,Elektronik,187037,15,158981,1,158981,UD Sentosa 59,Tangerang,2025-12-18,2025-12,Thursday
+TRX000082,UMKM00034,Holder HP,Elektronik,299096,0,299096,4,1196384,CV Sentosa 78,Jakarta Pusat,2025-11-05,2025-11,Wednesday
+TRX000083,UMKM00039,Shampoo Lidah Buaya,Kesehatan & Kecantikan,162650,0,162650,8,1301200,Kedai Gemilang 56,Denpasar,2025-12-14,2025-12,Sunday
+TRX000084,UMKM00023,Sandal Jepit,Fashion & Pakaian,81773,0,81773,1,81773,Rumah Abadi 90,Jakarta Selatan,2025-12-27,2025-12,Saturday
+TRX000085,UMKM00059,Beras Organik,Pertanian,201364,0,201364,1,201364,Kedai Abadi 57,Jakarta Selatan,2026-01-05,2026-01,Monday
+TRX000086,UMKM00010,Madu Hutan,Makanan & Minuman,143348,15,121845,8,974766,Rumah Jaya 19,Solo,2025-12-26,2025-12,Friday
+TRX000087,UMKM00054,Lukisan Kaca,Kerajinan Tangan,76238,10,68614,3,205842,Toko Sejahtera 7,Bandung,2025-12-15,2025-12,Monday
+TRX000088,UMKM00061,Buah Lokal,Pertanian,145908,10,131317,6,787903,Kedai Makmur 46,Yogyakarta,2025-10-10,2025-10,Friday
+TRX000089,UMKM00010,Madu Hutan,Makanan & Minuman,143348,0,143348,3,430044,Rumah Jaya 19,Solo,2025-11-08,2025-11,Saturday
+TRX000090,UMKM00067,Jasa Jahit,Jasa,52802,25,39601,9,356413,Gerai Prima 60,Jakarta Pusat,2025-11-02,2025-11,Sunday
+TRX000091,UMKM00025,Gelang Etnik,Fashion & Pakaian,180049,0,180049,6,1080294,Warung Sejahtera 27,Makassar,2025-10-09,2025-10,Thursday
+TRX000092,UMKM00003,Kopi Toraja,Makanan & Minuman,26775,20,21420,5,107100,Warung Sukses 90,Semarang,2025-10-29,2025-10,Wednesday
+TRX000093,UMKM00067,Jasa Jahit,Jasa,52802,10,47521,5,237609,Gerai Prima 60,Jakarta Pusat,2025-11-27,2025-11,Thursday
+TRX000094,UMKM00029,Earphone Murah,Elektronik,97243,5,92380,10,923808,Rumah Barokah 51,Denpasar,2025-11-20,2025-11,Thursday
+TRX000095,UMKM00046,Tikar Pandan,Rumah Tangga,232355,15,197501,5,987508,Gerai Barokah 3,Makassar,2026-01-01,2026-01,Thursday
+TRX000096,UMKM00058,Keramik Kasongan,Kerajinan Tangan,311099,5,295544,4,1182176,CV Sentosa 17,Surabaya,2026-01-03,2026-01,Saturday
+TRX000097,UMKM00011,Gula Aren,Makanan & Minuman,42748,15,36335,16,581372,UD Makmur 16,Depok,2025-12-22,2025-12,Monday
+TRX000098,UMKM00037,Masker Wajah,Kesehatan & Kecantikan,93789,20,75031,5,375156,CV Prima 48,Palembang,2025-11-04,2025-11,Tuesday
+TRX000099,UMKM00050,Taplak Meja Batik,Rumah Tangga,54577,20,43661,1,43661,Warung Abadi 37,Solo,2025-12-21,2025-12,Sunday
+TRX000100,UMKM00018,Sarung Samarinda,Fashion & Pakaian,392284,0,392284,5,1961420,Toko Gemilang 39,Malang,2025-11-08,2025-11,Saturday
+TRX000101,UMKM00027,Charger Universal,Elektronik,337885,10,304096,4,1216386,Rumah Jaya 57,Denpasar,2025-11-14,2025-11,Friday
+TRX000102,UMKM00074,Warnet,Jasa,158395,20,126716,8,1013728,Gerai Abadi 17,Makassar,2025-11-08,2025-11,Saturday
+TRX000103,UMKM00074,Warnet,Jasa,158395,20,126716,2,253432,Gerai Abadi 17,Makassar,2025-10-16,2025-10,Thursday
+TRX000104,UMKM00028,Kabel Data,Elektronik,187037,0,187037,4,748148,UD Sentosa 59,Tangerang,2025-12-23,2025-12,Tuesday
+TRX000105,UMKM00045,Rak Bambu,Rumah Tangga,68224,0,68224,1,68224,Rumah Barokah 17,Tangerang,2025-11-13,2025-11,Thursday
+TRX000106,UMKM00037,Masker Wajah,Kesehatan & Kecantikan,93789,20,75031,10,750312,CV Prima 48,Palembang,2025-11-18,2025-11,Tuesday
+TRX000107,UMKM00011,Gula Aren,Makanan & Minuman,42748,10,38473,16,615571,UD Makmur 16,Depok,2025-12-04,2025-12,Thursday
+TRX000108,UMKM00053,Patung Bali,Kerajinan Tangan,484960,20,387968,1,387968,Toko Mandiri 1,Palembang,2026-01-03,2026-01,Saturday
+TRX000109,UMKM00037,Masker Wajah,Kesehatan & Kecantikan,93789,5,89099,5,445497,CV Prima 48,Palembang,2025-12-23,2025-12,Tuesday
+TRX000110,UMKM00045,Rak Bambu,Rumah Tangga,68224,10,61401,2,122803,Rumah Barokah 17,Tangerang,2025-12-03,2025-12,Wednesday
+TRX000111,UMKM00053,Patung Bali,Kerajinan Tangan,484960,0,484960,5,2424800,Toko Mandiri 1,Palembang,2025-12-21,2025-12,Sunday
+TRX000112,UMKM00008,Teh Pucuk,Makanan & Minuman,19745,10,17770,13,231016,Toko Sentosa 3,Solo,2025-11-25,2025-11,Tuesday
+TRX000113,UMKM00004,Rendang Padang,Makanan & Minuman,95438,15,81122,10,811223,UD Jaya 75,Semarang,2025-10-08,2025-10,Wednesday
+TRX000114,UMKM00042,Lipstik Lokal,Kesehatan & Kecantikan,177422,20,141937,5,709688,CV Barokah 74,Solo,2025-10-16,2025-10,Thursday
+TRX000115,UMKM00074,Warnet,Jasa,158395,10,142555,2,285111,Gerai Abadi 17,Makassar,2025-11-02,2025-11,Sunday
+TRX000116,UMKM00068,Laundry Kiloan,Jasa,245880,5,233586,1,233586,Rumah Barokah 70,Tangerang,2025-10-15,2025-10,Wednesday
+TRX000117,UMKM00033,Speaker Bluetooth,Elektronik,418685,5,397750,2,795501,Toko Sukses 71,Denpasar,2025-11-11,2025-11,Tuesday
+TRX000118,UMKM00036,Minyak Kayu Putih,Kesehatan & Kecantikan,223474,20,178779,2,357558,CV Jaya 8,Bogor,2025-10-08,2025-10,Wednesday
+TRX000119,UMKM00019,Tas Anyaman,Fashion & Pakaian,109622,0,109622,4,438488,Kedai Mandiri 74,Medan,2025-11-10,2025-11,Monday
+TRX000120,UMKM00046,Tikar Pandan,Rumah Tangga,232355,5,220737,2,441474,Gerai Barokah 3,Makassar,2025-11-03,2025-11,Monday
+TRX000121,UMKM00002,Sambal Bu Rudy,Makanan & Minuman,59633,15,50688,2,101376,UD Maju 27,Jakarta Selatan,2026-01-03,2026-01,Saturday
+TRX000122,UMKM00024,Topi Anyaman,Fashion & Pakaian,171166,5,162607,2,325215,CV Prima 28,Bandung,2025-12-11,2025-12,Thursday
+TRX000123,UMKM00014,Ikan Asin,Makanan & Minuman,67877,20,54301,9,488714,Rumah Maju 82,Yogyakarta,2025-12-20,2025-12,Saturday
+TRX000124,UMKM00005,Dodol Garut,Makanan & Minuman,25950,15,22057,2,44115,Kedai Maju 54,Depok,2025-11-18,2025-11,Tuesday
+TRX000125,UMKM00011,Gula Aren,Makanan & Minuman,42748,20,34198,12,410380,UD Makmur 16,Depok,2025-11-16,2025-11,Sunday
+TRX000126,UMKM00013,Abon Sapi,Makanan & Minuman,64359,0,64359,5,321795,CV Jaya 21,Malang,2026-01-01,2026-01,Thursday
+TRX000127,UMKM00020,Sepatu Kulit,Fashion & Pakaian,492844,15,418917,1,418917,Kedai Gemilang 19,Depok,2025-10-20,2025-10,Monday
+TRX000128,UMKM00003,Kopi Toraja,Makanan & Minuman,26775,25,20081,5,100406,Warung Sukses 90,Semarang,2025-10-28,2025-10,Tuesday
+TRX000129,UMKM00008,Teh Pucuk,Makanan & Minuman,19745,0,19745,11,217195,Toko Sentosa 3,Solo,2025-11-10,2025-11,Monday
+TRX000130,UMKM00035,Sabun Herbal,Kesehatan & Kecantikan,107444,10,96699,2,193399,Rumah Barokah 92,Solo,2025-11-09,2025-11,Sunday
+TRX000131,UMKM00067,Jasa Jahit,Jasa,52802,20,42241,6,253449,Gerai Prima 60,Jakarta Pusat,2025-12-16,2025-12,Tuesday
+TRX000132,UMKM00025,Gelang Etnik,Fashion & Pakaian,180049,0,180049,7,1260343,Warung Sejahtera 27,Makassar,2025-11-09,2025-11,Sunday
+TRX000133,UMKM00046,Tikar Pandan,Rumah Tangga,232355,5,220737,3,662211,Gerai Barokah 3,Makassar,2025-11-03,2025-11,Monday
+TRX000134,UMKM00021,Kaos Distro,Fashion & Pakaian,473857,10,426471,4,1705885,Rumah Prima 51,Makassar,2026-01-04,2026-01,Sunday
+TRX000135,UMKM00039,Shampoo Lidah Buaya,Kesehatan & Kecantikan,162650,5,154517,8,1236140,Kedai Gemilang 56,Denpasar,2025-12-10,2025-12,Wednesday
+TRX000136,UMKM00004,Rendang Padang,Makanan & Minuman,95438,0,95438,4,381752,UD Jaya 75,Semarang,2025-11-30,2025-11,Sunday
+TRX000137,UMKM00029,Earphone Murah,Elektronik,97243,20,77794,5,388972,Rumah Barokah 51,Denpasar,2025-10-27,2025-10,Monday
+TRX000138,UMKM00061,Buah Lokal,Pertanian,145908,5,138612,5,693063,Kedai Makmur 46,Yogyakarta,2025-10-08,2025-10,Wednesday
+TRX000139,UMKM00001,Keripik Singkong,Makanan & Minuman,148081,15,125868,8,1006950,Rumah Makmur 18,Bogor,2025-10-30,2025-10,Thursday
+TRX000140,UMKM00064,Bibit Tanaman,Pertanian,106896,0,106896,8,855168,Toko Makmur 47,Tangerang,2025-11-11,2025-11,Tuesday
+TRX000141,UMKM00036,Minyak Kayu Putih,Kesehatan & Kecantikan,223474,0,223474,2,446948,CV Jaya 8,Bogor,2025-11-30,2025-11,Sunday
+TRX000142,UMKM00072,Potong Rambut,Jasa,158921,5,150974,6,905849,Kedai Barokah 46,Yogyakarta,2025-12-18,2025-12,Thursday
+TRX000143,UMKM00045,Rak Bambu,Rumah Tangga,68224,0,68224,8,545792,Rumah Barokah 17,Tangerang,2025-10-30,2025-10,Thursday
+TRX000144,UMKM00061,Buah Lokal,Pertanian,145908,15,124021,3,372065,Kedai Makmur 46,Yogyakarta,2025-10-13,2025-10,Monday
+TRX000145,UMKM00023,Sandal Jepit,Fashion & Pakaian,81773,0,81773,5,408865,Rumah Abadi 90,Jakarta Selatan,2025-11-13,2025-11,Thursday
+TRX000146,UMKM00071,Cuci Motor,Jasa,112745,5,107107,4,428431,CV Barokah 2,Makassar,2025-10-08,2025-10,Wednesday
+TRX000147,UMKM00061,Buah Lokal,Pertanian,145908,15,124021,2,248043,Kedai Makmur 46,Yogyakarta,2025-12-11,2025-12,Thursday
+TRX000148,UMKM00050,Taplak Meja Batik,Rumah Tangga,54577,0,54577,5,272885,Warung Abadi 37,Solo,2025-10-28,2025-10,Tuesday
+TRX000149,UMKM00037,Masker Wajah,Kesehatan & Kecantikan,93789,20,75031,4,300124,CV Prima 48,Palembang,2025-10-13,2025-10,Monday
+TRX000150,UMKM00060,Sayur Hidroponik,Pertanian,179698,0,179698,1,179698,Toko Maju 5,Bandung,2025-10-20,2025-10,Monday
+TRX000151,UMKM00073,Fotocopy,Jasa,142492,5,135367,8,1082939,Gerai Abadi 59,Makassar,2025-11-25,2025-11,Tuesday
+TRX000152,UMKM00050,Taplak Meja Batik,Rumah Tangga,54577,0,54577,7,382039,Warung Abadi 37,Solo,2025-12-24,2025-12,Wednesday
+TRX000153,UMKM00029,Earphone Murah,Elektronik,97243,25,72932,9,656390,Rumah Barokah 51,Denpasar,2026-01-02,2026-01,Friday
+TRX000154,UMKM00050,Taplak Meja Batik,Rumah Tangga,54577,20,43661,8,349292,Warung Abadi 37,Solo,2025-10-27,2025-10,Monday
+TRX000155,UMKM00055,Tas Rajut,Kerajinan Tangan,369080,0,369080,1,369080,Gerai Maju 84,Jakarta Pusat,2025-12-23,2025-12,Tuesday
+TRX000156,UMKM00064,Bibit Tanaman,Pertanian,106896,10,96206,2,192412,Toko Makmur 47,Tangerang,2025-11-10,2025-11,Monday
+TRX000157,UMKM00062,Rempah Segar,Pertanian,103659,25,77744,8,621954,UD Prima 18,Bekasi,2025-12-11,2025-12,Thursday
+TRX000158,UMKM00063,Pupuk Organik,Pertanian,176015,5,167214,7,1170499,Toko Sukses 28,Medan,2025-11-15,2025-11,Saturday
+TRX000159,UMKM00045,Rak Bambu,Rumah Tangga,68224,10,61401,8,491212,Rumah Barokah 17,Tangerang,2025-12-03,2025-12,Wednesday
+TRX000160,UMKM00061,Buah Lokal,Pertanian,145908,10,131317,5,656586,Kedai Makmur 46,Yogyakarta,2025-10-30,2025-10,Thursday
+TRX000161,UMKM00018,Sarung Samarinda,Fashion & Pakaian,392284,0,392284,4,1569136,Toko Gemilang 39,Malang,2025-10-30,2025-10,Thursday
+TRX000162,UMKM00051,Wayang Kulit,Kerajinan Tangan,970631,15,825036,5,4125181,Gerai Berkah 33,Jakarta Selatan,2025-10-30,2025-10,Thursday
+TRX000163,UMKM00070,Service HP,Jasa,148194,20,118555,1,118555,Gerai Berkah 39,Makassar,2025-12-09,2025-12,Tuesday
+TRX000164,UMKM00015,Batik Pekalongan,Fashion & Pakaian,618292,0,618292,4,2473168,CV Mandiri 14,Depok,2025-12-28,2025-12,Sunday
+TRX000165,UMKM00017,Kebaya Modern,Fashion & Pakaian,405398,10,364858,4,1459432,Toko Maju 40,Malang,2025-12-05,2025-12,Friday
+TRX000166,UMKM00015,Batik Pekalongan,Fashion & Pakaian,618292,5,587377,4,2349509,CV Mandiri 14,Depok,2025-10-25,2025-10,Saturday
+TRX000167,UMKM00040,Minyak Kemiri,Kesehatan & Kecantikan,88468,0,88468,7,619276,CV Sejahtera 1,Bogor,2025-10-09,2025-10,Thursday
+TRX000168,UMKM00004,Rendang Padang,Makanan & Minuman,95438,15,81122,3,243366,UD Jaya 75,Semarang,2025-10-28,2025-10,Tuesday
+TRX000169,UMKM00017,Kebaya Modern,Fashion & Pakaian,405398,0,405398,5,2026990,Toko Maju 40,Malang,2025-12-24,2025-12,Wednesday
+TRX000170,UMKM00040,Minyak Kemiri,Kesehatan & Kecantikan,88468,15,75197,3,225593,CV Sejahtera 1,Bogor,2025-11-30,2025-11,Sunday
+TRX000171,UMKM00060,Sayur Hidroponik,Pertanian,179698,10,161728,7,1132097,Toko Maju 5,Bandung,2025-10-20,2025-10,Monday
+TRX000172,UMKM00043,Sapu Ijuk,Rumah Tangga,26534,0,26534,19,504146,UD Sukses 81,Bogor,2025-10-11,2025-10,Saturday
+TRX000173,UMKM00030,Powerbank Lokal,Elektronik,363722,0,363722,5,1818610,Kedai Jaya 68,Malang,2025-10-11,2025-10,Saturday
+TRX000174,UMKM00049,Keset Kaki,Rumah Tangga,203513,15,172986,2,345972,Toko Gemilang 28,Semarang,2026-01-02,2026-01,Friday
+TRX000175,UMKM00071,Cuci Motor,Jasa,112745,0,112745,5,563725,CV Barokah 2,Makassar,2025-11-25,2025-11,Tuesday
+TRX000176,UMKM00067,Jasa Jahit,Jasa,52802,20,42241,9,380174,Gerai Prima 60,Jakarta Pusat,2025-11-24,2025-11,Monday
+TRX000177,UMKM00023,Sandal Jepit,Fashion & Pakaian,81773,10,73595,3,220787,Rumah Abadi 90,Jakarta Selatan,2025-11-12,2025-11,Wednesday
+TRX000178,UMKM00036,Minyak Kayu Putih,Kesehatan & Kecantikan,223474,20,178779,1,178779,CV Jaya 8,Bogor,2025-10-11,2025-10,Saturday
+TRX000179,UMKM00006,Bakpia Jogja,Makanan & Minuman,66552,20,53241,4,212966,Toko Sejahtera 18,Palembang,2025-11-05,2025-11,Wednesday
+TRX000180,UMKM00069,Catering Rumahan,Jasa,118406,0,118406,4,473624,CV Berkah 81,Depok,2025-10-12,2025-10,Sunday
+TRX000181,UMKM00014,Ikan Asin,Makanan & Minuman,67877,20,54301,6,325809,Rumah Maju 82,Yogyakarta,2025-10-09,2025-10,Thursday
+TRX000182,UMKM00043,Sapu Ijuk,Rumah Tangga,26534,20,21227,8,169817,UD Sukses 81,Bogor,2026-01-04,2026-01,Sunday
+TRX000183,UMKM00003,Kopi Toraja,Makanan & Minuman,26775,5,25436,19,483288,Warung Sukses 90,Semarang,2025-10-07,2025-10,Tuesday
+TRX000184,UMKM00030,Powerbank Lokal,Elektronik,363722,25,272791,4,1091166,Kedai Jaya 68,Malang,2025-12-14,2025-12,Sunday
+TRX000185,UMKM00068,Laundry Kiloan,Jasa,245880,20,196704,2,393408,Rumah Barokah 70,Tangerang,2025-10-27,2025-10,Monday
+TRX000186,UMKM00048,Gantungan Baju,Rumah Tangga,143757,0,143757,2,287514,Gerai Barokah 24,Palembang,2025-10-07,2025-10,Tuesday
+TRX000187,UMKM00001,Keripik Singkong,Makanan & Minuman,148081,0,148081,5,740405,Rumah Makmur 18,Bogor,2025-12-01,2025-12,Monday
+TRX000188,UMKM00046,Tikar Pandan,Rumah Tangga,232355,20,185884,3,557652,Gerai Barokah 3,Makassar,2025-10-11,2025-10,Saturday
+TRX000189,UMKM00066,Santan Instan,Pertanian,94443,15,80276,2,160553,Kedai Gemilang 82,Bandung,2025-12-28,2025-12,Sunday
+TRX000190,UMKM00005,Dodol Garut,Makanan & Minuman,25950,0,25950,4,103800,Kedai Maju 54,Depok,2025-10-08,2025-10,Wednesday
+TRX000191,UMKM00047,Tempat Sampah,Rumah Tangga,116707,25,87530,2,175060,Gerai Mandiri 91,Semarang,2025-10-17,2025-10,Friday
+TRX000192,UMKM00001,Keripik Singkong,Makanan & Minuman,148081,25,111060,10,1110607,Rumah Makmur 18,Bogor,2025-12-08,2025-12,Monday
+TRX000193,UMKM00015,Batik Pekalongan,Fashion & Pakaian,618292,25,463719,2,927438,CV Mandiri 14,Depok,2025-10-29,2025-10,Wednesday
+TRX000194,UMKM00028,Kabel Data,Elektronik,187037,15,158981,1,158981,UD Sentosa 59,Tangerang,2025-12-03,2025-12,Wednesday
+TRX000195,UMKM00048,Gantungan Baju,Rumah Tangga,143757,25,107817,8,862542,Gerai Barokah 24,Palembang,2025-10-17,2025-10,Friday
+TRX000196,UMKM00063,Pupuk Organik,Pertanian,176015,0,176015,4,704060,Toko Sukses 28,Medan,2025-11-24,2025-11,Monday
+TRX000197,UMKM00039,Shampoo Lidah Buaya,Kesehatan & Kecantikan,162650,20,130120,10,1301200,Kedai Gemilang 56,Denpasar,2025-11-04,2025-11,Tuesday
+TRX000198,UMKM00069,Catering Rumahan,Jasa,118406,0,118406,3,355218,CV Berkah 81,Depok,2025-12-11,2025-12,Thursday
+TRX000199,UMKM00069,Catering Rumahan,Jasa,118406,20,94724,10,947248,CV Berkah 81,Depok,2025-12-09,2025-12,Tuesday
+TRX000200,UMKM00021,Kaos Distro,Fashion & Pakaian,473857,0,473857,5,2369285,Rumah Prima 51,Makassar,2025-11-01,2025-11,Saturday
+TRX000201,UMKM00074,Warnet,Jasa,158395,20,126716,1,126716,Gerai Abadi 17,Makassar,2025-12-19,2025-12,Friday
+TRX000202,UMKM00074,Warnet,Jasa,158395,25,118796,2,237592,Gerai Abadi 17,Makassar,2025-11-25,2025-11,Tuesday
+TRX000203,UMKM00049,Keset Kaki,Rumah Tangga,203513,10,183161,3,549485,Toko Gemilang 28,Semarang,2025-10-16,2025-10,Thursday
+TRX000204,UMKM00039,Shampoo Lidah Buaya,Kesehatan & Kecantikan,162650,0,162650,2,325300,Kedai Gemilang 56,Denpasar,2026-01-03,2026-01,Saturday
+TRX000205,UMKM00026,Kalung Mutiara,Fashion & Pakaian,428940,20,343152,5,1715760,Gerai Barokah 7,Tangerang,2025-10-08,2025-10,Wednesday
+TRX000206,UMKM00042,Lipstik Lokal,Kesehatan & Kecantikan,177422,0,177422,10,1774220,CV Barokah 74,Solo,2025-12-18,2025-12,Thursday
+TRX000207,UMKM00027,Charger Universal,Elektronik,337885,20,270308,5,1351540,Rumah Jaya 57,Denpasar,2025-10-08,2025-10,Wednesday
+TRX000208,UMKM00005,Dodol Garut,Makanan & Minuman,25950,20,20760,8,166080,Kedai Maju 54,Depok,2025-11-15,2025-11,Saturday
+TRX000209,UMKM00055,Tas Rajut,Kerajinan Tangan,369080,25,276810,3,830430,Gerai Maju 84,Jakarta Pusat,2025-10-17,2025-10,Friday
+TRX000210,UMKM00025,Gelang Etnik,Fashion & Pakaian,180049,15,153041,4,612166,Warung Sejahtera 27,Makassar,2025-10-31,2025-10,Friday
+TRX000211,UMKM00059,Beras Organik,Pertanian,201364,0,201364,1,201364,Kedai Abadi 57,Jakarta Selatan,2025-11-06,2025-11,Thursday
+TRX000212,UMKM00062,Rempah Segar,Pertanian,103659,0,103659,4,414636,UD Prima 18,Bekasi,2025-12-02,2025-12,Tuesday
+TRX000213,UMKM00062,Rempah Segar,Pertanian,103659,0,103659,1,103659,UD Prima 18,Bekasi,2025-11-23,2025-11,Sunday
+TRX000214,UMKM00050,Taplak Meja Batik,Rumah Tangga,54577,20,43661,1,43661,Warung Abadi 37,Solo,2025-12-09,2025-12,Tuesday
+TRX000215,UMKM00001,Keripik Singkong,Makanan & Minuman,148081,20,118464,3,355394,Rumah Makmur 18,Bogor,2025-12-15,2025-12,Monday
+TRX000216,UMKM00012,Kerupuk Udang,Makanan & Minuman,39199,0,39199,19,744781,Rumah Jaya 82,Semarang,2025-10-27,2025-10,Monday
+TRX000217,UMKM00052,Ukiran Kayu,Kerajinan Tangan,213174,5,202515,1,202515,UD Mandiri 67,Bandung,2025-10-30,2025-10,Thursday
+TRX000218,UMKM00057,Topeng Malang,Kerajinan Tangan,439288,10,395359,1,395359,Kedai Jaya 20,Yogyakarta,2025-12-14,2025-12,Sunday
+TRX000219,UMKM00049,Keset Kaki,Rumah Tangga,203513,5,193337,5,966686,Toko Gemilang 28,Semarang,2025-12-17,2025-12,Wednesday
+TRX000220,UMKM00011,Gula Aren,Makanan & Minuman,42748,20,34198,14,478777,UD Makmur 16,Depok,2025-12-02,2025-12,Tuesday
+TRX000221,UMKM00068,Laundry Kiloan,Jasa,245880,10,221292,3,663876,Rumah Barokah 70,Tangerang,2025-12-29,2025-12,Monday
+TRX000222,UMKM00010,Madu Hutan,Makanan & Minuman,143348,5,136180,5,680903,Rumah Jaya 19,Solo,2025-12-01,2025-12,Monday
+TRX000223,UMKM00013,Abon Sapi,Makanan & Minuman,64359,0,64359,10,643590,CV Jaya 21,Malang,2025-11-29,2025-11,Saturday
+TRX000224,UMKM00067,Jasa Jahit,Jasa,52802,0,52802,5,264010,Gerai Prima 60,Jakarta Pusat,2025-12-13,2025-12,Saturday
+TRX000225,UMKM00002,Sambal Bu Rudy,Makanan & Minuman,59633,0,59633,7,417431,UD Maju 27,Jakarta Selatan,2025-10-28,2025-10,Tuesday
+TRX000226,UMKM00012,Kerupuk Udang,Makanan & Minuman,39199,10,35279,10,352791,Rumah Jaya 82,Semarang,2025-12-25,2025-12,Thursday
+TRX000227,UMKM00074,Warnet,Jasa,158395,20,126716,2,253432,Gerai Abadi 17,Makassar,2025-11-01,2025-11,Saturday
+TRX000228,UMKM00015,Batik Pekalongan,Fashion & Pakaian,618292,0,618292,2,1236584,CV Mandiri 14,Depok,2025-10-19,2025-10,Sunday
+TRX000229,UMKM00001,Keripik Singkong,Makanan & Minuman,148081,5,140676,4,562707,Rumah Makmur 18,Bogor,2025-10-14,2025-10,Tuesday
+TRX000230,UMKM00005,Dodol Garut,Makanan & Minuman,25950,0,25950,1,25950,Kedai Maju 54,Depok,2025-12-28,2025-12,Sunday
+TRX000231,UMKM00011,Gula Aren,Makanan & Minuman,42748,10,38473,7,269312,UD Makmur 16,Depok,2025-11-30,2025-11,Sunday
+TRX000232,UMKM00024,Topi Anyaman,Fashion & Pakaian,171166,0,171166,4,684664,CV Prima 28,Bandung,2025-12-05,2025-12,Friday
+TRX000233,UMKM00003,Kopi Toraja,Makanan & Minuman,26775,10,24097,11,265072,Warung Sukses 90,Semarang,2025-10-07,2025-10,Tuesday
+TRX000234,UMKM00041,Bedak Dingin,Kesehatan & Kecantikan,108640,0,108640,4,434560,Toko Berkah 71,Jakarta Pusat,2025-11-11,2025-11,Tuesday
+TRX000235,UMKM00071,Cuci Motor,Jasa,112745,25,84558,5,422793,CV Barokah 2,Makassar,2025-12-25,2025-12,Thursday
+TRX000236,UMKM00015,Batik Pekalongan,Fashion & Pakaian,618292,5,587377,2,1174754,CV Mandiri 14,Depok,2026-01-02,2026-01,Friday
+TRX000237,UMKM00056,Boneka Kayu,Kerajinan Tangan,310551,25,232913,5,1164566,Rumah Prima 26,Bekasi,2025-11-10,2025-11,Monday
+TRX000238,UMKM00028,Kabel Data,Elektronik,187037,15,158981,6,953888,UD Sentosa 59,Tangerang,2025-12-27,2025-12,Saturday
+TRX000239,UMKM00067,Jasa Jahit,Jasa,52802,0,52802,9,475218,Gerai Prima 60,Jakarta Pusat,2025-10-26,2025-10,Sunday
+TRX000240,UMKM00030,Powerbank Lokal,Elektronik,363722,5,345535,3,1036607,Kedai Jaya 68,Malang,2025-10-10,2025-10,Friday
+TRX000241,UMKM00006,Bakpia Jogja,Makanan & Minuman,66552,0,66552,10,665520,Toko Sejahtera 18,Palembang,2025-10-18,2025-10,Saturday
+TRX000242,UMKM00028,Kabel Data,Elektronik,187037,5,177685,7,1243796,UD Sentosa 59,Tangerang,2025-10-10,2025-10,Friday
+TRX000243,UMKM00013,Abon Sapi,Makanan & Minuman,64359,0,64359,1,64359,CV Jaya 21,Malang,2025-11-27,2025-11,Thursday
+TRX000244,UMKM00051,Wayang Kulit,Kerajinan Tangan,970631,25,727973,4,2911893,Gerai Berkah 33,Jakarta Selatan,2025-11-03,2025-11,Monday
+TRX000245,UMKM00055,Tas Rajut,Kerajinan Tangan,369080,0,369080,4,1476320,Gerai Maju 84,Jakarta Pusat,2025-12-05,2025-12,Friday
+TRX000246,UMKM00063,Pupuk Organik,Pertanian,176015,0,176015,5,880075,Toko Sukses 28,Medan,2025-11-15,2025-11,Saturday
+TRX000247,UMKM00043,Sapu Ijuk,Rumah Tangga,26534,0,26534,3,79602,UD Sukses 81,Bogor,2025-11-24,2025-11,Monday
+TRX000248,UMKM00058,Keramik Kasongan,Kerajinan Tangan,311099,5,295544,1,295544,CV Sentosa 17,Surabaya,2025-10-07,2025-10,Tuesday
+TRX000249,UMKM00002,Sambal Bu Rudy,Makanan & Minuman,59633,5,56651,7,396559,UD Maju 27,Jakarta Selatan,2025-12-08,2025-12,Monday
+TRX000250,UMKM00061,Buah Lokal,Pertanian,145908,0,145908,1,145908,Kedai Makmur 46,Yogyakarta,2025-12-25,2025-12,Thursday
+TRX000251,UMKM00028,Kabel Data,Elektronik,187037,0,187037,2,374074,UD Sentosa 59,Tangerang,2026-01-01,2026-01,Thursday
+TRX000252,UMKM00055,Tas Rajut,Kerajinan Tangan,369080,0,369080,5,1845400,Gerai Maju 84,Jakarta Pusat,2026-01-02,2026-01,Friday
+TRX000253,UMKM00022,Hijab Premium,Fashion & Pakaian,141966,15,120671,1,120671,UD Makmur 3,Semarang,2025-12-06,2025-12,Saturday
+TRX000254,UMKM00031,Lampu LED,Elektronik,346956,0,346956,1,346956,Kedai Sukses 62,Semarang,2025-11-22,2025-11,Saturday
+TRX000255,UMKM00068,Laundry Kiloan,Jasa,245880,0,245880,2,491760,Rumah Barokah 70,Tangerang,2025-12-21,2025-12,Sunday
+TRX000256,UMKM00020,Sepatu Kulit,Fashion & Pakaian,492844,0,492844,4,1971376,Kedai Gemilang 19,Depok,2025-12-30,2025-12,Tuesday
+TRX000257,UMKM00003,Kopi Toraja,Makanan & Minuman,26775,15,22758,6,136552,Warung Sukses 90,Semarang,2025-11-14,2025-11,Friday
+TRX000258,UMKM00021,Kaos Distro,Fashion & Pakaian,473857,0,473857,1,473857,Rumah Prima 51,Makassar,2026-01-05,2026-01,Monday
+TRX000259,UMKM00024,Topi Anyaman,Fashion & Pakaian,171166,0,171166,10,1711660,CV Prima 28,Bandung,2025-12-13,2025-12,Saturday
+TRX000260,UMKM00071,Cuci Motor,Jasa,112745,25,84558,10,845587,CV Barokah 2,Makassar,2025-11-04,2025-11,Tuesday
+TRX000261,UMKM00022,Hijab Premium,Fashion & Pakaian,141966,0,141966,5,709830,UD Makmur 3,Semarang,2025-10-26,2025-10,Sunday
+TRX000262,UMKM00041,Bedak Dingin,Kesehatan & Kecantikan,108640,20,86912,2,173824,Toko Berkah 71,Jakarta Pusat,2025-11-01,2025-11,Saturday
+TRX000263,UMKM00027,Charger Universal,Elektronik,337885,25,253413,3,760241,Rumah Jaya 57,Denpasar,2025-10-08,2025-10,Wednesday
+TRX000264,UMKM00011,Gula Aren,Makanan & Minuman,42748,25,32061,17,545037,UD Makmur 16,Depok,2025-12-20,2025-12,Saturday
+TRX000265,UMKM00011,Gula Aren,Makanan & Minuman,42748,0,42748,14,598472,UD Makmur 16,Depok,2025-11-05,2025-11,Wednesday
+TRX000266,UMKM00046,Tikar Pandan,Rumah Tangga,232355,15,197501,2,395003,Gerai Barokah 3,Makassar,2025-10-24,2025-10,Friday
+TRX000267,UMKM00006,Bakpia Jogja,Makanan & Minuman,66552,15,56569,7,395984,Toko Sejahtera 18,Palembang,2025-10-10,2025-10,Friday
+TRX000268,UMKM00027,Charger Universal,Elektronik,337885,10,304096,3,912289,Rumah Jaya 57,Denpasar,2025-10-13,2025-10,Monday
+TRX000269,UMKM00009,Jamu Tradisional,Makanan & Minuman,17390,20,13912,1,13912,Rumah Jaya 9,Palembang,2025-10-30,2025-10,Thursday
+TRX000270,UMKM00009,Jamu Tradisional,Makanan & Minuman,17390,0,17390,2,34780,Rumah Jaya 9,Palembang,2025-11-16,2025-11,Sunday
+TRX000271,UMKM00073,Fotocopy,Jasa,142492,0,142492,2,284984,Gerai Abadi 59,Makassar,2025-10-16,2025-10,Thursday
+TRX000272,UMKM00022,Hijab Premium,Fashion & Pakaian,141966,0,141966,10,1419660,UD Makmur 3,Semarang,2025-11-14,2025-11,Friday
+TRX000273,UMKM00013,Abon Sapi,Makanan & Minuman,64359,25,48269,7,337884,CV Jaya 21,Malang,2025-11-16,2025-11,Sunday
+TRX000274,UMKM00014,Ikan Asin,Makanan & Minuman,67877,25,50907,5,254538,Rumah Maju 82,Yogyakarta,2025-11-15,2025-11,Saturday
+TRX000275,UMKM00016,Tenun Ikat,Fashion & Pakaian,660332,5,627315,1,627315,Gerai Gemilang 59,Bandung,2025-12-01,2025-12,Monday
+TRX000276,UMKM00002,Sambal Bu Rudy,Makanan & Minuman,59633,0,59633,4,238532,UD Maju 27,Jakarta Selatan,2025-10-20,2025-10,Monday
+TRX000277,UMKM00011,Gula Aren,Makanan & Minuman,42748,0,42748,6,256488,UD Makmur 16,Depok,2025-11-26,2025-11,Wednesday
+TRX000278,UMKM00035,Sabun Herbal,Kesehatan & Kecantikan,107444,20,85955,8,687641,Rumah Barokah 92,Solo,2025-12-20,2025-12,Saturday
+TRX000279,UMKM00008,Teh Pucuk,Makanan & Minuman,19745,20,15796,4,63184,Toko Sentosa 3,Solo,2025-11-15,2025-11,Saturday
+TRX000280,UMKM00037,Masker Wajah,Kesehatan & Kecantikan,93789,0,93789,6,562734,CV Prima 48,Palembang,2025-12-05,2025-12,Friday
+TRX000281,UMKM00073,Fotocopy,Jasa,142492,0,142492,7,997444,Gerai Abadi 59,Makassar,2025-11-26,2025-11,Wednesday
+TRX000282,UMKM00024,Topi Anyaman,Fashion & Pakaian,171166,25,128374,4,513498,CV Prima 28,Bandung,2025-12-25,2025-12,Thursday
+TRX000283,UMKM00028,Kabel Data,Elektronik,187037,25,140277,3,420833,UD Sentosa 59,Tangerang,2025-12-20,2025-12,Saturday
+TRX000284,UMKM00020,Sepatu Kulit,Fashion & Pakaian,492844,20,394275,2,788550,Kedai Gemilang 19,Depok,2025-11-16,2025-11,Sunday
+TRX000285,UMKM00044,Ember Plastik,Rumah Tangga,38829,15,33004,12,396055,Rumah Barokah 75,Makassar,2025-12-20,2025-12,Saturday
+TRX000286,UMKM00024,Topi Anyaman,Fashion & Pakaian,171166,0,171166,9,1540494,CV Prima 28,Bandung,2025-10-31,2025-10,Friday
+TRX000287,UMKM00055,Tas Rajut,Kerajinan Tangan,369080,25,276810,4,1107240,Gerai Maju 84,Jakarta Pusat,2025-12-22,2025-12,Monday
+TRX000288,UMKM00059,Beras Organik,Pertanian,201364,0,201364,4,805456,Kedai Abadi 57,Jakarta Selatan,2025-10-30,2025-10,Thursday
+TRX000289,UMKM00063,Pupuk Organik,Pertanian,176015,20,140812,7,985684,Toko Sukses 28,Medan,2025-12-11,2025-12,Thursday
+TRX000290,UMKM00028,Kabel Data,Elektronik,187037,25,140277,9,1262499,UD Sentosa 59,Tangerang,2025-12-25,2025-12,Thursday
+TRX000291,UMKM00071,Cuci Motor,Jasa,112745,20,90196,6,541176,CV Barokah 2,Makassar,2025-12-04,2025-12,Thursday
+TRX000292,UMKM00050,Taplak Meja Batik,Rumah Tangga,54577,25,40932,5,204663,Warung Abadi 37,Solo,2025-10-29,2025-10,Wednesday
+TRX000293,UMKM00035,Sabun Herbal,Kesehatan & Kecantikan,107444,10,96699,7,676897,Rumah Barokah 92,Solo,2025-12-14,2025-12,Sunday
+TRX000294,UMKM00035,Sabun Herbal,Kesehatan & Kecantikan,107444,20,85955,8,687641,Rumah Barokah 92,Solo,2025-12-09,2025-12,Tuesday
+TRX000295,UMKM00012,Kerupuk Udang,Makanan & Minuman,39199,10,35279,19,670302,Rumah Jaya 82,Semarang,2025-12-22,2025-12,Monday
+TRX000296,UMKM00031,Lampu LED,Elektronik,346956,0,346956,5,1734780,Kedai Sukses 62,Semarang,2025-12-26,2025-12,Friday
+TRX000297,UMKM00034,Holder HP,Elektronik,299096,20,239276,3,717830,CV Sentosa 78,Jakarta Pusat,2025-12-16,2025-12,Tuesday
+TRX000298,UMKM00065,Minyak Kelapa,Pertanian,152291,0,152291,4,609164,Gerai Maju 39,Jakarta Selatan,2025-11-15,2025-11,Saturday
+TRX000299,UMKM00061,Buah Lokal,Pertanian,145908,0,145908,10,1459080,Kedai Makmur 46,Yogyakarta,2025-11-15,2025-11,Saturday
+TRX000300,UMKM00013,Abon Sapi,Makanan & Minuman,64359,25,48269,5,241346,CV Jaya 21,Malang,2025-12-08,2025-12,Monday
+TRX000301,UMKM00066,Santan Instan,Pertanian,94443,10,84998,9,764988,Kedai Gemilang 82,Bandung,2025-11-21,2025-11,Friday
+TRX000302,UMKM00051,Wayang Kulit,Kerajinan Tangan,970631,0,970631,4,3882524,Gerai Berkah 33,Jakarta Selatan,2025-10-13,2025-10,Monday
+TRX000303,UMKM00065,Minyak Kelapa,Pertanian,152291,0,152291,9,1370619,Gerai Maju 39,Jakarta Selatan,2025-10-24,2025-10,Friday
+TRX000304,UMKM00066,Santan Instan,Pertanian,94443,0,94443,7,661101,Kedai Gemilang 82,Bandung,2025-12-01,2025-12,Monday
+TRX000305,UMKM00070,Service HP,Jasa,148194,20,118555,9,1066996,Gerai Berkah 39,Makassar,2025-11-02,2025-11,Sunday
+TRX000306,UMKM00057,Topeng Malang,Kerajinan Tangan,439288,5,417323,4,1669294,Kedai Jaya 20,Yogyakarta,2025-10-29,2025-10,Wednesday
+TRX000307,UMKM00014,Ikan Asin,Makanan & Minuman,67877,10,61089,9,549803,Rumah Maju 82,Yogyakarta,2025-12-20,2025-12,Saturday
+TRX000308,UMKM00042,Lipstik Lokal,Kesehatan & Kecantikan,177422,0,177422,6,1064532,CV Barokah 74,Solo,2025-12-27,2025-12,Saturday
+TRX000309,UMKM00046,Tikar Pandan,Rumah Tangga,232355,25,174266,5,871331,Gerai Barokah 3,Makassar,2025-11-01,2025-11,Saturday
+TRX000310,UMKM00024,Topi Anyaman,Fashion & Pakaian,171166,0,171166,3,513498,CV Prima 28,Bandung,2025-10-29,2025-10,Wednesday
+TRX000311,UMKM00061,Buah Lokal,Pertanian,145908,0,145908,10,1459080,Kedai Makmur 46,Yogyakarta,2025-12-25,2025-12,Thursday
+TRX000312,UMKM00019,Tas Anyaman,Fashion & Pakaian,109622,5,104140,6,624845,Kedai Mandiri 74,Medan,2025-10-28,2025-10,Tuesday
+TRX000313,UMKM00067,Jasa Jahit,Jasa,52802,5,50161,9,451457,Gerai Prima 60,Jakarta Pusat,2025-12-14,2025-12,Sunday
+TRX000314,UMKM00009,Jamu Tradisional,Makanan & Minuman,17390,20,13912,9,125208,Rumah Jaya 9,Palembang,2025-11-23,2025-11,Sunday
+TRX000315,UMKM00053,Patung Bali,Kerajinan Tangan,484960,0,484960,1,484960,Toko Mandiri 1,Palembang,2025-12-09,2025-12,Tuesday
+TRX000316,UMKM00052,Ukiran Kayu,Kerajinan Tangan,213174,0,213174,1,213174,UD Mandiri 67,Bandung,2025-10-11,2025-10,Saturday
+TRX000317,UMKM00013,Abon Sapi,Makanan & Minuman,64359,0,64359,2,128718,CV Jaya 21,Malang,2025-11-10,2025-11,Monday
+TRX000318,UMKM00008,Teh Pucuk,Makanan & Minuman,19745,15,16783,4,67133,Toko Sentosa 3,Solo,2025-12-19,2025-12,Friday
+TRX000319,UMKM00014,Ikan Asin,Makanan & Minuman,67877,0,67877,7,475139,Rumah Maju 82,Yogyakarta,2025-11-20,2025-11,Thursday
+TRX000320,UMKM00010,Madu Hutan,Makanan & Minuman,143348,15,121845,5,609229,Rumah Jaya 19,Solo,2025-12-28,2025-12,Sunday
+TRX000321,UMKM00072,Potong Rambut,Jasa,158921,0,158921,5,794605,Kedai Barokah 46,Yogyakarta,2025-10-30,2025-10,Thursday
+TRX000322,UMKM00008,Teh Pucuk,Makanan & Minuman,19745,15,16783,20,335665,Toko Sentosa 3,Solo,2025-11-06,2025-11,Thursday
+TRX000323,UMKM00050,Taplak Meja Batik,Rumah Tangga,54577,15,46390,7,324733,Warung Abadi 37,Solo,2025-12-13,2025-12,Saturday
+TRX000324,UMKM00052,Ukiran Kayu,Kerajinan Tangan,213174,20,170539,4,682156,UD Mandiri 67,Bandung,2025-10-19,2025-10,Sunday
+TRX000325,UMKM00036,Minyak Kayu Putih,Kesehatan & Kecantikan,223474,15,189952,1,189952,CV Jaya 8,Bogor,2025-12-25,2025-12,Thursday
+TRX000326,UMKM00037,Masker Wajah,Kesehatan & Kecantikan,93789,10,84410,5,422050,CV Prima 48,Palembang,2025-10-18,2025-10,Saturday
+TRX000327,UMKM00068,Laundry Kiloan,Jasa,245880,25,184410,2,368820,Rumah Barokah 70,Tangerang,2025-10-13,2025-10,Monday
+TRX000328,UMKM00033,Speaker Bluetooth,Elektronik,418685,25,314013,5,1570068,Toko Sukses 71,Denpasar,2025-12-19,2025-12,Friday
+TRX000329,UMKM00025,Gelang Etnik,Fashion & Pakaian,180049,15,153041,8,1224333,Warung Sejahtera 27,Makassar,2025-11-11,2025-11,Tuesday
+TRX000330,UMKM00029,Earphone Murah,Elektronik,97243,25,72932,8,583458,Rumah Barokah 51,Denpasar,2025-11-16,2025-11,Sunday
+TRX000331,UMKM00030,Powerbank Lokal,Elektronik,363722,5,345535,4,1382143,Kedai Jaya 68,Malang,2025-11-10,2025-11,Monday
+TRX000332,UMKM00004,Rendang Padang,Makanan & Minuman,95438,5,90666,2,181332,UD Jaya 75,Semarang,2025-12-18,2025-12,Thursday
+TRX000333,UMKM00026,Kalung Mutiara,Fashion & Pakaian,428940,0,428940,5,2144700,Gerai Barokah 7,Tangerang,2025-11-30,2025-11,Sunday
+TRX000334,UMKM00011,Gula Aren,Makanan & Minuman,42748,15,36335,13,472365,UD Makmur 16,Depok,2025-11-21,2025-11,Friday
+TRX000335,UMKM00041,Bedak Dingin,Kesehatan & Kecantikan,108640,0,108640,10,1086400,Toko Berkah 71,Jakarta Pusat,2025-12-14,2025-12,Sunday
+TRX000336,UMKM00068,Laundry Kiloan,Jasa,245880,0,245880,1,245880,Rumah Barokah 70,Tangerang,2025-12-14,2025-12,Sunday
+TRX000337,UMKM00069,Catering Rumahan,Jasa,118406,0,118406,2,236812,CV Berkah 81,Depok,2025-12-25,2025-12,Thursday
+TRX000338,UMKM00051,Wayang Kulit,Kerajinan Tangan,970631,0,970631,1,970631,Gerai Berkah 33,Jakarta Selatan,2025-11-15,2025-11,Saturday
+TRX000339,UMKM00056,Boneka Kayu,Kerajinan Tangan,310551,15,263968,2,527936,Rumah Prima 26,Bekasi,2025-10-10,2025-10,Friday
+TRX000340,UMKM00041,Bedak Dingin,Kesehatan & Kecantikan,108640,10,97776,3,293328,Toko Berkah 71,Jakarta Pusat,2025-12-16,2025-12,Tuesday
+TRX000341,UMKM00023,Sandal Jepit,Fashion & Pakaian,81773,15,69507,3,208521,Rumah Abadi 90,Jakarta Selatan,2025-10-10,2025-10,Friday
+TRX000342,UMKM00035,Sabun Herbal,Kesehatan & Kecantikan,107444,0,107444,9,966996,Rumah Barokah 92,Solo,2025-10-26,2025-10,Sunday
+TRX000343,UMKM00041,Bedak Dingin,Kesehatan & Kecantikan,108640,20,86912,8,695296,Toko Berkah 71,Jakarta Pusat,2025-11-15,2025-11,Saturday
+TRX000344,UMKM00058,Keramik Kasongan,Kerajinan Tangan,311099,20,248879,2,497758,CV Sentosa 17,Surabaya,2025-11-10,2025-11,Monday
+TRX000345,UMKM00017,Kebaya Modern,Fashion & Pakaian,405398,20,324318,5,1621592,Toko Maju 40,Malang,2025-11-03,2025-11,Monday
+TRX000346,UMKM00056,Boneka Kayu,Kerajinan Tangan,310551,10,279495,4,1117983,Rumah Prima 26,Bekasi,2025-11-03,2025-11,Monday
+TRX000347,UMKM00056,Boneka Kayu,Kerajinan Tangan,310551,20,248440,5,1242204,Rumah Prima 26,Bekasi,2025-10-27,2025-10,Monday
+TRX000348,UMKM00045,Rak Bambu,Rumah Tangga,68224,0,68224,2,136448,Rumah Barokah 17,Tangerang,2025-10-12,2025-10,Sunday
+TRX000349,UMKM00055,Tas Rajut,Kerajinan Tangan,369080,20,295264,5,1476320,Gerai Maju 84,Jakarta Pusat,2025-10-31,2025-10,Friday
+TRX000350,UMKM00047,Tempat Sampah,Rumah Tangga,116707,0,116707,8,933656,Gerai Mandiri 91,Semarang,2025-10-20,2025-10,Monday
+TRX000351,UMKM00012,Kerupuk Udang,Makanan & Minuman,39199,0,39199,9,352791,Rumah Jaya 82,Semarang,2025-10-12,2025-10,Sunday
+TRX000352,UMKM00005,Dodol Garut,Makanan & Minuman,25950,25,19462,17,330862,Kedai Maju 54,Depok,2025-12-27,2025-12,Saturday
+TRX000353,UMKM00033,Speaker Bluetooth,Elektronik,418685,0,418685,3,1256055,Toko Sukses 71,Denpasar,2026-01-04,2026-01,Sunday
+TRX000354,UMKM00008,Teh Pucuk,Makanan & Minuman,19745,20,15796,17,268532,Toko Sentosa 3,Solo,2025-11-18,2025-11,Tuesday
+TRX000355,UMKM00016,Tenun Ikat,Fashion & Pakaian,660332,10,594298,4,2377195,Gerai Gemilang 59,Bandung,2025-12-27,2025-12,Saturday
+TRX000356,UMKM00019,Tas Anyaman,Fashion & Pakaian,109622,0,109622,10,1096220,Kedai Mandiri 74,Medan,2025-10-20,2025-10,Monday
+TRX000357,UMKM00010,Madu Hutan,Makanan & Minuman,143348,10,129013,7,903092,Rumah Jaya 19,Solo,2025-12-23,2025-12,Tuesday
+TRX000358,UMKM00015,Batik Pekalongan,Fashion & Pakaian,618292,0,618292,5,3091460,CV Mandiri 14,Depok,2025-12-23,2025-12,Tuesday
+TRX000359,UMKM00041,Bedak Dingin,Kesehatan & Kecantikan,108640,0,108640,7,760480,Toko Berkah 71,Jakarta Pusat,2025-10-12,2025-10,Sunday
+TRX000360,UMKM00007,Kue Lapis,Makanan & Minuman,18972,0,18972,12,227664,Kedai Abadi 12,Tangerang,2025-12-20,2025-12,Saturday
+TRX000361,UMKM00036,Minyak Kayu Putih,Kesehatan & Kecantikan,223474,0,223474,4,893896,CV Jaya 8,Bogor,2025-11-09,2025-11,Sunday
+TRX000362,UMKM00031,Lampu LED,Elektronik,346956,20,277564,2,555129,Kedai Sukses 62,Semarang,2025-11-16,2025-11,Sunday
+TRX000363,UMKM00024,Topi Anyaman,Fashion & Pakaian,171166,10,154049,5,770247,CV Prima 28,Bandung,2025-12-05,2025-12,Friday
+TRX000364,UMKM00061,Buah Lokal,Pertanian,145908,15,124021,9,1116196,Kedai Makmur 46,Yogyakarta,2025-10-26,2025-10,Sunday
+TRX000365,UMKM00052,Ukiran Kayu,Kerajinan Tangan,213174,0,213174,1,213174,UD Mandiri 67,Bandung,2025-12-13,2025-12,Saturday
+TRX000366,UMKM00044,Ember Plastik,Rumah Tangga,38829,0,38829,20,776580,Rumah Barokah 75,Makassar,2025-12-31,2025-12,Wednesday
+TRX000367,UMKM00068,Laundry Kiloan,Jasa,245880,25,184410,5,922050,Rumah Barokah 70,Tangerang,2025-10-29,2025-10,Wednesday
+TRX000368,UMKM00031,Lampu LED,Elektronik,346956,15,294912,4,1179650,Kedai Sukses 62,Semarang,2025-11-16,2025-11,Sunday
+TRX000369,UMKM00067,Jasa Jahit,Jasa,52802,25,39601,5,198007,Gerai Prima 60,Jakarta Pusat,2025-10-07,2025-10,Tuesday
+TRX000370,UMKM00067,Jasa Jahit,Jasa,52802,5,50161,1,50161,Gerai Prima 60,Jakarta Pusat,2025-11-05,2025-11,Wednesday
+TRX000371,UMKM00072,Potong Rambut,Jasa,158921,0,158921,3,476763,Kedai Barokah 46,Yogyakarta,2025-10-24,2025-10,Friday
+TRX000372,UMKM00012,Kerupuk Udang,Makanan & Minuman,39199,10,35279,6,211674,Rumah Jaya 82,Semarang,2025-11-26,2025-11,Wednesday
+TRX000373,UMKM00007,Kue Lapis,Makanan & Minuman,18972,0,18972,10,189720,Kedai Abadi 12,Tangerang,2025-10-12,2025-10,Sunday
+TRX000374,UMKM00051,Wayang Kulit,Kerajinan Tangan,970631,10,873567,3,2620703,Gerai Berkah 33,Jakarta Selatan,2025-12-26,2025-12,Friday
+TRX000375,UMKM00033,Speaker Bluetooth,Elektronik,418685,20,334948,5,1674740,Toko Sukses 71,Denpasar,2025-10-11,2025-10,Saturday
+TRX000376,UMKM00067,Jasa Jahit,Jasa,52802,20,42241,10,422416,Gerai Prima 60,Jakarta Pusat,2025-12-03,2025-12,Wednesday
+TRX000377,UMKM00011,Gula Aren,Makanan & Minuman,42748,0,42748,10,427480,UD Makmur 16,Depok,2025-12-18,2025-12,Thursday
+TRX000378,UMKM00029,Earphone Murah,Elektronik,97243,10,87518,7,612630,Rumah Barokah 51,Denpasar,2025-10-29,2025-10,Wednesday
+TRX000379,UMKM00012,Kerupuk Udang,Makanan & Minuman,39199,10,35279,14,493907,Rumah Jaya 82,Semarang,2025-10-24,2025-10,Friday
+TRX000380,UMKM00047,Tempat Sampah,Rumah Tangga,116707,15,99200,9,892808,Gerai Mandiri 91,Semarang,2025-11-29,2025-11,Saturday
+TRX000381,UMKM00073,Fotocopy,Jasa,142492,0,142492,1,142492,Gerai Abadi 59,Makassar,2025-11-08,2025-11,Saturday
+TRX000382,UMKM00006,Bakpia Jogja,Makanan & Minuman,66552,20,53241,9,479174,Toko Sejahtera 18,Palembang,2026-01-04,2026-01,Sunday
+TRX000383,UMKM00073,Fotocopy,Jasa,142492,25,106869,8,854952,Gerai Abadi 59,Makassar,2025-12-17,2025-12,Wednesday
+TRX000384,UMKM00060,Sayur Hidroponik,Pertanian,179698,0,179698,10,1796980,Toko Maju 5,Bandung,2025-10-19,2025-10,Sunday
+TRX000385,UMKM00063,Pupuk Organik,Pertanian,176015,0,176015,4,704060,Toko Sukses 28,Medan,2025-11-05,2025-11,Wednesday
+TRX000386,UMKM00017,Kebaya Modern,Fashion & Pakaian,405398,10,364858,3,1094574,Toko Maju 40,Malang,2025-12-06,2025-12,Saturday
+TRX000387,UMKM00027,Charger Universal,Elektronik,337885,20,270308,1,270308,Rumah Jaya 57,Denpasar,2026-01-03,2026-01,Saturday
+TRX000388,UMKM00063,Pupuk Organik,Pertanian,176015,5,167214,1,167214,Toko Sukses 28,Medan,2025-12-15,2025-12,Monday
+TRX000389,UMKM00045,Rak Bambu,Rumah Tangga,68224,20,54579,3,163737,Rumah Barokah 17,Tangerang,2025-10-17,2025-10,Friday
+TRX000390,UMKM00030,Powerbank Lokal,Elektronik,363722,15,309163,4,1236654,Kedai Jaya 68,Malang,2025-10-28,2025-10,Tuesday
+TRX000391,UMKM00068,Laundry Kiloan,Jasa,245880,10,221292,1,221292,Rumah Barokah 70,Tangerang,2025-10-13,2025-10,Monday
+TRX000392,UMKM00042,Lipstik Lokal,Kesehatan & Kecantikan,177422,25,133066,2,266133,CV Barokah 74,Solo,2025-12-12,2025-12,Friday
+TRX000393,UMKM00070,Service HP,Jasa,148194,25,111145,4,444582,Gerai Berkah 39,Makassar,2025-10-08,2025-10,Wednesday
+TRX000394,UMKM00062,Rempah Segar,Pertanian,103659,5,98476,2,196952,UD Prima 18,Bekasi,2025-10-19,2025-10,Sunday
+TRX000395,UMKM00047,Tempat Sampah,Rumah Tangga,116707,10,105036,2,210072,Gerai Mandiri 91,Semarang,2025-10-30,2025-10,Thursday
+TRX000396,UMKM00064,Bibit Tanaman,Pertanian,106896,20,85516,2,171033,Toko Makmur 47,Tangerang,2025-10-20,2025-10,Monday
+TRX000397,UMKM00027,Charger Universal,Elektronik,337885,0,337885,1,337885,Rumah Jaya 57,Denpasar,2026-01-02,2026-01,Friday
+TRX000398,UMKM00043,Sapu Ijuk,Rumah Tangga,26534,25,19900,7,139303,UD Sukses 81,Bogor,2025-12-29,2025-12,Monday
+TRX000399,UMKM00008,Teh Pucuk,Makanan & Minuman,19745,20,15796,10,157960,Toko Sentosa 3,Solo,2025-11-20,2025-11,Thursday
+TRX000400,UMKM00064,Bibit Tanaman,Pertanian,106896,0,106896,8,855168,Toko Makmur 47,Tangerang,2025-12-02,2025-12,Tuesday
+TRX000401,UMKM00032,Kipas Mini,Elektronik,453962,5,431263,3,1293791,Rumah Barokah 30,Tangerang,2026-01-02,2026-01,Friday
+TRX000402,UMKM00036,Minyak Kayu Putih,Kesehatan & Kecantikan,223474,10,201126,5,1005633,CV Jaya 8,Bogor,2026-01-04,2026-01,Sunday
+TRX000403,UMKM00030,Powerbank Lokal,Elektronik,363722,10,327349,2,654699,Kedai Jaya 68,Malang,2025-10-20,2025-10,Monday
+TRX000404,UMKM00012,Kerupuk Udang,Makanan & Minuman,39199,5,37239,6,223434,Rumah Jaya 82,Semarang,2025-10-26,2025-10,Sunday
+TRX000405,UMKM00033,Speaker Bluetooth,Elektronik,418685,0,418685,2,837370,Toko Sukses 71,Denpasar,2025-10-29,2025-10,Wednesday
+TRX000406,UMKM00024,Topi Anyaman,Fashion & Pakaian,171166,10,154049,4,616197,CV Prima 28,Bandung,2025-11-16,2025-11,Sunday
+TRX000407,UMKM00060,Sayur Hidroponik,Pertanian,179698,15,152743,7,1069203,Toko Maju 5,Bandung,2026-01-03,2026-01,Saturday
+TRX000408,UMKM00004,Rendang Padang,Makanan & Minuman,95438,5,90666,5,453330,UD Jaya 75,Semarang,2025-10-20,2025-10,Monday
+TRX000409,UMKM00020,Sepatu Kulit,Fashion & Pakaian,492844,0,492844,1,492844,Kedai Gemilang 19,Depok,2025-11-24,2025-11,Monday
+TRX000410,UMKM00001,Keripik Singkong,Makanan & Minuman,148081,10,133272,1,133272,Rumah Makmur 18,Bogor,2025-12-21,2025-12,Sunday
+TRX000411,UMKM00048,Gantungan Baju,Rumah Tangga,143757,15,122193,7,855354,Gerai Barokah 24,Palembang,2025-12-01,2025-12,Monday
+TRX000412,UMKM00050,Taplak Meja Batik,Rumah Tangga,54577,25,40932,2,81865,Warung Abadi 37,Solo,2025-11-05,2025-11,Wednesday
+TRX000413,UMKM00038,Lulur Tradisional,Kesehatan & Kecantikan,140310,0,140310,9,1262790,Toko Barokah 41,Solo,2025-10-29,2025-10,Wednesday
+TRX000414,UMKM00010,Madu Hutan,Makanan & Minuman,143348,0,143348,3,430044,Rumah Jaya 19,Solo,2025-12-08,2025-12,Monday
+TRX000415,UMKM00035,Sabun Herbal,Kesehatan & Kecantikan,107444,25,80583,5,402915,Rumah Barokah 92,Solo,2025-10-13,2025-10,Monday
+TRX000416,UMKM00014,Ikan Asin,Makanan & Minuman,67877,15,57695,4,230781,Rumah Maju 82,Yogyakarta,2025-12-23,2025-12,Tuesday
+TRX000417,UMKM00068,Laundry Kiloan,Jasa,245880,0,245880,4,983520,Rumah Barokah 70,Tangerang,2025-11-08,2025-11,Saturday
+TRX000418,UMKM00016,Tenun Ikat,Fashion & Pakaian,660332,0,660332,3,1980996,Gerai Gemilang 59,Bandung,2025-11-19,2025-11,Wednesday
+TRX000419,UMKM00055,Tas Rajut,Kerajinan Tangan,369080,5,350626,4,1402504,Gerai Maju 84,Jakarta Pusat,2025-11-29,2025-11,Saturday
+TRX000420,UMKM00020,Sepatu Kulit,Fashion & Pakaian,492844,0,492844,5,2464220,Kedai Gemilang 19,Depok,2025-10-23,2025-10,Thursday
+TRX000421,UMKM00031,Lampu LED,Elektronik,346956,5,329608,3,988824,Kedai Sukses 62,Semarang,2025-10-17,2025-10,Friday
+TRX000422,UMKM00027,Charger Universal,Elektronik,337885,15,287202,1,287202,Rumah Jaya 57,Denpasar,2025-12-29,2025-12,Monday
+TRX000423,UMKM00073,Fotocopy,Jasa,142492,25,106869,10,1068690,Gerai Abadi 59,Makassar,2025-10-09,2025-10,Thursday
+TRX000424,UMKM00067,Jasa Jahit,Jasa,52802,20,42241,10,422416,Gerai Prima 60,Jakarta Pusat,2025-12-05,2025-12,Friday
+TRX000425,UMKM00036,Minyak Kayu Putih,Kesehatan & Kecantikan,223474,10,201126,3,603379,CV Jaya 8,Bogor,2025-12-10,2025-12,Wednesday
+TRX000426,UMKM00060,Sayur Hidroponik,Pertanian,179698,10,161728,1,161728,Toko Maju 5,Bandung,2025-12-04,2025-12,Thursday
+TRX000427,UMKM00043,Sapu Ijuk,Rumah Tangga,26534,0,26534,7,185738,UD Sukses 81,Bogor,2025-11-19,2025-11,Wednesday
+TRX000428,UMKM00032,Kipas Mini,Elektronik,453962,20,363169,2,726339,Rumah Barokah 30,Tangerang,2025-11-14,2025-11,Friday
+TRX000429,UMKM00020,Sepatu Kulit,Fashion & Pakaian,492844,10,443559,2,887119,Kedai Gemilang 19,Depok,2025-12-05,2025-12,Friday
+TRX000430,UMKM00074,Warnet,Jasa,158395,25,118796,9,1069166,Gerai Abadi 17,Makassar,2025-11-18,2025-11,Tuesday
+TRX000431,UMKM00027,Charger Universal,Elektronik,337885,25,253413,4,1013655,Rumah Jaya 57,Denpasar,2025-12-05,2025-12,Friday
+TRX000432,UMKM00042,Lipstik Lokal,Kesehatan & Kecantikan,177422,0,177422,10,1774220,CV Barokah 74,Solo,2025-12-09,2025-12,Tuesday
+TRX000433,UMKM00020,Sepatu Kulit,Fashion & Pakaian,492844,25,369633,4,1478532,Kedai Gemilang 19,Depok,2025-12-29,2025-12,Monday
+TRX000434,UMKM00026,Kalung Mutiara,Fashion & Pakaian,428940,0,428940,4,1715760,Gerai Barokah 7,Tangerang,2025-10-22,2025-10,Wednesday
+TRX000435,UMKM00031,Lampu LED,Elektronik,346956,10,312260,2,624520,Kedai Sukses 62,Semarang,2025-12-12,2025-12,Friday
+TRX000436,UMKM00003,Kopi Toraja,Makanan & Minuman,26775,25,20081,14,281137,Warung Sukses 90,Semarang,2025-11-14,2025-11,Friday
+TRX000437,UMKM00010,Madu Hutan,Makanan & Minuman,143348,10,129013,10,1290132,Rumah Jaya 19,Solo,2026-01-03,2026-01,Saturday
+TRX000438,UMKM00044,Ember Plastik,Rumah Tangga,38829,0,38829,18,698922,Rumah Barokah 75,Makassar,2025-12-13,2025-12,Saturday
+TRX000439,UMKM00023,Sandal Jepit,Fashion & Pakaian,81773,25,61329,10,613297,Rumah Abadi 90,Jakarta Selatan,2025-10-22,2025-10,Wednesday
+TRX000440,UMKM00053,Patung Bali,Kerajinan Tangan,484960,15,412216,3,1236648,Toko Mandiri 1,Palembang,2025-10-22,2025-10,Wednesday
+TRX000441,UMKM00074,Warnet,Jasa,158395,10,142555,5,712777,Gerai Abadi 17,Makassar,2025-10-22,2025-10,Wednesday
+TRX000442,UMKM00034,Holder HP,Elektronik,299096,5,284141,3,852423,CV Sentosa 78,Jakarta Pusat,2025-12-13,2025-12,Saturday
+TRX000443,UMKM00057,Topeng Malang,Kerajinan Tangan,439288,10,395359,2,790718,Kedai Jaya 20,Yogyakarta,2025-11-21,2025-11,Friday
+TRX000444,UMKM00047,Tempat Sampah,Rumah Tangga,116707,10,105036,8,840290,Gerai Mandiri 91,Semarang,2025-12-28,2025-12,Sunday
+TRX000445,UMKM00022,Hijab Premium,Fashion & Pakaian,141966,15,120671,4,482684,UD Makmur 3,Semarang,2025-10-07,2025-10,Tuesday
+TRX000446,UMKM00002,Sambal Bu Rudy,Makanan & Minuman,59633,0,59633,7,417431,UD Maju 27,Jakarta Selatan,2025-10-18,2025-10,Saturday
+TRX000447,UMKM00052,Ukiran Kayu,Kerajinan Tangan,213174,10,191856,5,959283,UD Mandiri 67,Bandung,2025-10-27,2025-10,Monday
+TRX000448,UMKM00028,Kabel Data,Elektronik,187037,0,187037,8,1496296,UD Sentosa 59,Tangerang,2025-11-06,2025-11,Thursday
+TRX000449,UMKM00036,Minyak Kayu Putih,Kesehatan & Kecantikan,223474,0,223474,2,446948,CV Jaya 8,Bogor,2025-11-17,2025-11,Monday
+TRX000450,UMKM00027,Charger Universal,Elektronik,337885,0,337885,2,675770,Rumah Jaya 57,Denpasar,2025-12-29,2025-12,Monday
+TRX000451,UMKM00010,Madu Hutan,Makanan & Minuman,143348,5,136180,1,136180,Rumah Jaya 19,Solo,2025-11-19,2025-11,Wednesday
+TRX000452,UMKM00031,Lampu LED,Elektronik,346956,0,346956,3,1040868,Kedai Sukses 62,Semarang,2025-11-21,2025-11,Friday
+TRX000453,UMKM00041,Bedak Dingin,Kesehatan & Kecantikan,108640,0,108640,9,977760,Toko Berkah 71,Jakarta Pusat,2025-10-25,2025-10,Saturday
+TRX000454,UMKM00069,Catering Rumahan,Jasa,118406,20,94724,10,947248,CV Berkah 81,Depok,2026-01-05,2026-01,Monday
+TRX000455,UMKM00010,Madu Hutan,Makanan & Minuman,143348,10,129013,5,645066,Rumah Jaya 19,Solo,2025-11-28,2025-11,Friday
+TRX000456,UMKM00029,Earphone Murah,Elektronik,97243,10,87518,7,612630,Rumah Barokah 51,Denpasar,2025-12-31,2025-12,Wednesday
+TRX000457,UMKM00029,Earphone Murah,Elektronik,97243,15,82656,4,330626,Rumah Barokah 51,Denpasar,2025-12-01,2025-12,Monday
+TRX000458,UMKM00034,Holder HP,Elektronik,299096,15,254231,2,508463,CV Sentosa 78,Jakarta Pusat,2025-12-03,2025-12,Wednesday
+TRX000459,UMKM00067,Jasa Jahit,Jasa,52802,0,52802,1,52802,Gerai Prima 60,Jakarta Pusat,2025-10-18,2025-10,Saturday
+TRX000460,UMKM00007,Kue Lapis,Makanan & Minuman,18972,0,18972,14,265608,Kedai Abadi 12,Tangerang,2025-11-20,2025-11,Thursday
+TRX000461,UMKM00009,Jamu Tradisional,Makanan & Minuman,17390,0,17390,7,121730,Rumah Jaya 9,Palembang,2025-10-27,2025-10,Monday
+TRX000462,UMKM00064,Bibit Tanaman,Pertanian,106896,5,101551,8,812409,Toko Makmur 47,Tangerang,2025-11-04,2025-11,Tuesday
+TRX000463,UMKM00065,Minyak Kelapa,Pertanian,152291,0,152291,9,1370619,Gerai Maju 39,Jakarta Selatan,2025-10-21,2025-10,Tuesday
+TRX000464,UMKM00026,Kalung Mutiara,Fashion & Pakaian,428940,5,407493,1,407493,Gerai Barokah 7,Tangerang,2025-11-15,2025-11,Saturday
+TRX000465,UMKM00071,Cuci Motor,Jasa,112745,20,90196,5,450980,CV Barokah 2,Makassar,2025-12-24,2025-12,Wednesday
+TRX000466,UMKM00059,Beras Organik,Pertanian,201364,0,201364,4,805456,Kedai Abadi 57,Jakarta Selatan,2025-12-09,2025-12,Tuesday
+TRX000467,UMKM00061,Buah Lokal,Pertanian,145908,15,124021,6,744130,Kedai Makmur 46,Yogyakarta,2025-10-28,2025-10,Tuesday
+TRX000468,UMKM00029,Earphone Murah,Elektronik,97243,10,87518,2,175037,Rumah Barokah 51,Denpasar,2025-11-19,2025-11,Wednesday
+TRX000469,UMKM00049,Keset Kaki,Rumah Tangga,203513,0,203513,4,814052,Toko Gemilang 28,Semarang,2025-11-07,2025-11,Friday
+TRX000470,UMKM00062,Rempah Segar,Pertanian,103659,5,98476,1,98476,UD Prima 18,Bekasi,2026-01-01,2026-01,Thursday
+TRX000471,UMKM00032,Kipas Mini,Elektronik,453962,5,431263,1,431263,Rumah Barokah 30,Tangerang,2025-12-13,2025-12,Saturday
+TRX000472,UMKM00012,Kerupuk Udang,Makanan & Minuman,39199,25,29399,5,146996,Rumah Jaya 82,Semarang,2025-11-06,2025-11,Thursday
+TRX000473,UMKM00013,Abon Sapi,Makanan & Minuman,64359,0,64359,2,128718,CV Jaya 21,Malang,2026-01-04,2026-01,Sunday
+TRX000474,UMKM00056,Boneka Kayu,Kerajinan Tangan,310551,0,310551,1,310551,Rumah Prima 26,Bekasi,2025-12-28,2025-12,Sunday
+TRX000475,UMKM00071,Cuci Motor,Jasa,112745,0,112745,4,450980,CV Barokah 2,Makassar,2025-11-13,2025-11,Thursday
+TRX000476,UMKM00021,Kaos Distro,Fashion & Pakaian,473857,0,473857,4,1895428,Rumah Prima 51,Makassar,2025-10-08,2025-10,Wednesday
+TRX000477,UMKM00053,Patung Bali,Kerajinan Tangan,484960,25,363720,4,1454880,Toko Mandiri 1,Palembang,2025-12-30,2025-12,Tuesday
+TRX000478,UMKM00029,Earphone Murah,Elektronik,97243,20,77794,5,388972,Rumah Barokah 51,Denpasar,2025-10-21,2025-10,Tuesday
+TRX000479,UMKM00063,Pupuk Organik,Pertanian,176015,20,140812,10,1408120,Toko Sukses 28,Medan,2025-12-24,2025-12,Wednesday
+TRX000480,UMKM00061,Buah Lokal,Pertanian,145908,0,145908,3,437724,Kedai Makmur 46,Yogyakarta,2025-11-15,2025-11,Saturday
+TRX000481,UMKM00046,Tikar Pandan,Rumah Tangga,232355,5,220737,3,662211,Gerai Barokah 3,Makassar,2025-11-06,2025-11,Thursday
+TRX000482,UMKM00036,Minyak Kayu Putih,Kesehatan & Kecantikan,223474,0,223474,5,1117370,CV Jaya 8,Bogor,2025-12-25,2025-12,Thursday
+TRX000483,UMKM00053,Patung Bali,Kerajinan Tangan,484960,5,460712,2,921424,Toko Mandiri 1,Palembang,2025-12-26,2025-12,Friday
+TRX000484,UMKM00037,Masker Wajah,Kesehatan & Kecantikan,93789,0,93789,5,468945,CV Prima 48,Palembang,2025-10-13,2025-10,Monday
+TRX000485,UMKM00041,Bedak Dingin,Kesehatan & Kecantikan,108640,0,108640,2,217280,Toko Berkah 71,Jakarta Pusat,2025-10-26,2025-10,Sunday
+TRX000486,UMKM00043,Sapu Ijuk,Rumah Tangga,26534,0,26534,4,106136,UD Sukses 81,Bogor,2025-11-08,2025-11,Saturday
+TRX000487,UMKM00040,Minyak Kemiri,Kesehatan & Kecantikan,88468,10,79621,10,796212,CV Sejahtera 1,Bogor,2025-11-30,2025-11,Sunday
+TRX000488,UMKM00028,Kabel Data,Elektronik,187037,20,149629,1,149629,UD Sentosa 59,Tangerang,2025-11-11,2025-11,Tuesday
+TRX000489,UMKM00020,Sepatu Kulit,Fashion & Pakaian,492844,5,468201,3,1404605,Kedai Gemilang 19,Depok,2025-12-26,2025-12,Friday
+TRX000490,UMKM00036,Minyak Kayu Putih,Kesehatan & Kecantikan,223474,0,223474,2,446948,CV Jaya 8,Bogor,2025-10-24,2025-10,Friday
+TRX000491,UMKM00008,Teh Pucuk,Makanan & Minuman,19745,0,19745,8,157960,Toko Sentosa 3,Solo,2025-12-17,2025-12,Wednesday
+TRX000492,UMKM00051,Wayang Kulit,Kerajinan Tangan,970631,0,970631,1,970631,Gerai Berkah 33,Jakarta Selatan,2025-12-02,2025-12,Tuesday
+TRX000493,UMKM00043,Sapu Ijuk,Rumah Tangga,26534,25,19900,16,318408,UD Sukses 81,Bogor,2025-12-12,2025-12,Friday
+TRX000494,UMKM00005,Dodol Garut,Makanan & Minuman,25950,25,19462,7,136237,Kedai Maju 54,Depok,2025-12-08,2025-12,Monday
+TRX000495,UMKM00018,Sarung Samarinda,Fashion & Pakaian,392284,10,353055,4,1412222,Toko Gemilang 39,Malang,2025-11-24,2025-11,Monday
+TRX000496,UMKM00007,Kue Lapis,Makanan & Minuman,18972,20,15177,19,288374,Kedai Abadi 12,Tangerang,2025-11-16,2025-11,Sunday
+TRX000497,UMKM00024,Topi Anyaman,Fashion & Pakaian,171166,15,145491,9,1309419,CV Prima 28,Bandung,2025-12-17,2025-12,Wednesday
+TRX000498,UMKM00019,Tas Anyaman,Fashion & Pakaian,109622,5,104140,6,624845,Kedai Mandiri 74,Medan,2025-11-11,2025-11,Tuesday
+TRX000499,UMKM00070,Service HP,Jasa,148194,25,111145,2,222291,Gerai Berkah 39,Makassar,2025-12-09,2025-12,Tuesday
+TRX000500,UMKM00061,Buah Lokal,Pertanian,145908,0,145908,9,1313172,Kedai Makmur 46,Yogyakarta,2025-11-21,2025-11,Friday

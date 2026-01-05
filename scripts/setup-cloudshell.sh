@@ -133,8 +133,17 @@ bq mk --table \
     --description="Daily sales summary" \
     --time_partitioning_field=summary_date \
     $PROJECT_ID:$DATASET_ID.daily_summary \
-    summary_date:DATE,total_sales:FLOAT,total_quantity:INTEGER,avg_price:FLOAT,top_category:STRING \
+    summary_date:DATE,total_transactions:INTEGER,total_revenue:FLOAT,total_quantity:INTEGER,avg_order_value:FLOAT,top_category:STRING,top_product:STRING,unique_sellers:INTEGER \
     2>/dev/null && print_success "Created table: daily_summary" || print_info "Table daily_summary may already exist"
+
+# Tokopedia reviews table
+bq mk --table \
+    --description="Tokopedia product reviews from Kaggle" \
+    --time_partitioning_field=review_date \
+    $PROJECT_ID:$DATASET_ID.tokopedia_reviews \
+    review_id:STRING,review_text:STRING,review_date:DATE,product_id:STRING,product_name:STRING,product_category:STRING,product_variant:STRING,product_price:FLOAT,product_url:STRING,rating:INTEGER,sold_count:INTEGER,shop_id:STRING,sentiment_label:STRING,ingestion_date:DATE \
+    2>/dev/null && print_success "Created table: tokopedia_reviews" || print_info "Table tokopedia_reviews may already exist"
+
 
 # ============================================
 # Create Pub/Sub Topics (for event-driven processing)

@@ -1,24 +1,25 @@
 # Configuration File untuk UMKM Analytics Platform
-# Copy file ini sebagai config.yaml dan sesuaikan dengan project Anda
+# VERSI FREE TIER - 100% Gratis (No Billing Required)
 
 # ============================================
 # GCP PROJECT SETTINGS
 # ============================================
 gcp:
-  project_id: "ipsd-483408"  # Ganti dengan GCP Project ID Anda
-  region: "asia-southeast2"      # Jakarta region
+  project_id: "ipsd-483408"
+  region: "asia-southeast2"
   zone: "asia-southeast2-a"
   
 # ============================================
 # CLOUD STORAGE SETTINGS
 # ============================================
 storage:
-  bucket_name: "umkm-data-lake"
+  # Bucket name format: ${PROJECT_ID}-umkm-data
+  bucket_name: "ipsd-483408-umkm-data"
   folders:
     raw: "raw"
     processed: "processed"
     archive: "archive"
-    temp: "temp"
+    uploads: "uploads"
   lifecycle:
     raw_retention_days: 30
     processed_retention_days: 90
@@ -32,41 +33,39 @@ bigquery:
   location: "asia-southeast2"
   
   tables:
+    # Tabel untuk data transaksi sample
     raw_sales:
-      name: "raw_sales_data"
-      partition_field: "ingestion_date"
-      clustering_fields: ["category", "product_id"]
-      
-    cleaned_sales:
-      name: "cleaned_sales_data"
+      name: "raw_sales"
       partition_field: "sale_date"
-      clustering_fields: ["category", "product_id"]
+      clustering_fields: ["category", "seller_location"]
       
+    # Tabel untuk data Tokopedia Reviews
+    tokopedia_reviews:
+      name: "tokopedia_reviews"
+      partition_field: "review_date"
+      clustering_fields: ["product_category", "sentiment_label"]
+      
+    # Tabel ringkasan harian
     daily_summary:
       name: "daily_summary"
       partition_field: "summary_date"
       
+    # Tabel prediksi (jika pakai ML)
     predictions:
       name: "sales_predictions"
       partition_field: "prediction_date"
   
-  # Partition expiration in days
   partition_expiration_days: 365
-  
-  # ML Models
-  ml_models:
-    sales_prediction:
-      name: "sales_prediction_model"
-      type: "LINEAR_REG"
-      training_data_months: 6
 
 # ============================================
-# CLOUD FUNCTIONS SETTINGS
+# CLOUD FUNCTIONS SETTINGS (Optional - requires billing)
 # ============================================
+# NOTE: Cloud Functions memerlukan billing account
+# Alternatif: Gunakan Google Colab + GitHub Actions
 cloud_functions:
   data_ingestion:
     name: "ingest-sales-data"
-    runtime: "python39"
+    runtime: "python311"
     memory: "256MB"
     timeout: "540s"
     max_instances: 10
@@ -74,65 +73,37 @@ cloud_functions:
     
   data_validation:
     name: "validate-sales-data"
-    runtime: "python39"
+    runtime: "python311"
     memory: "256MB"
     timeout: "300s"
     max_instances: 5
     entry_point: "validate_data"
 
 # ============================================
-# CLOUD COMPOSER (AIRFLOW) SETTINGS
+# SCHEDULING - FREE ALTERNATIVES
 # ============================================
-composer:
-  environment_name: "umkm-composer"
-  location: "asia-southeast2"
-  
-  # Environment size
-  node_count: 3
-  machine_type: "n1-standard-1"
-  disk_size_gb: 30
-  
-  # Airflow config overrides
-  airflow_config_overrides:
-    core-dags_are_paused_at_creation: "True"
-    core-max_active_runs_per_dag: "3"
-    scheduler-catchup_by_default: "False"
-  
-  # DAGs configuration
-  dags:
-    etl_pipeline:
-      schedule: "0 2 * * *"  # Daily at 2 AM
-      retries: 2
-      retry_delay_minutes: 5
-      
-    ml_training:
-      schedule: "0 3 * * 0"  # Weekly on Sunday at 3 AM
-      retries: 1
-      retry_delay_minutes: 10
-
-# ============================================
-# CLOUD SCHEDULER SETTINGS
-# ============================================
-scheduler:
-  jobs:
+# Cloud Scheduler memerlukan billing
+# Gunakan GitHub Actions sebagai alternatif gratis
+scheduling:
+  method: "github_actions"
+  workflows:
     daily_ingestion:
-      name: "daily-sales-ingestion"
-      schedule: "0 1 * * *"  # Daily at 1 AM WIB
-      timezone: "Asia/Jakarta"
-      target: "pubsub"
-      topic: "data-ingestion-trigger"
+      cron: "0 2 * * *"  # Daily at 2 AM UTC (9 AM WIB)
+      description: "Daily data ingestion"
+    weekly_report:
+      cron: "0 3 * * 0"  # Weekly on Sunday at 3 AM UTC
+      description: "Weekly summary report"
 
 # ============================================
-# PUB/SUB SETTINGS
+# PUB/SUB SETTINGS (FREE TIER)
 # ============================================
 pubsub:
   topics:
     ingestion_trigger:
       name: "data-ingestion-trigger"
-      message_retention_duration: "86400s"  # 24 hours
-    
+      message_retention_duration: "86400s"
     etl_trigger:
-      name: "etl-pipeline-trigger"
+      name: "etl-complete-trigger"
       message_retention_duration: "86400s"
   
   subscriptions:
@@ -144,216 +115,71 @@ pubsub:
 # DATA SOURCE SETTINGS
 # ============================================
 data_sources:
-  # API Configuration
-  api:
+  # Local/Sample Data
+  local:
     enabled: true
-    endpoints:
-      - name: "tokopedia_mock"
-        url: "https://api.example.com/products"
-        method: "GET"
-        auth_type: "bearer"  # bearer, api_key, none
-        rate_limit: 100  # requests per minute
-        
-  # CSV Upload
-  csv:
-    enabled: true
-    upload_folder: "gs://umkm-data-lake/uploads/"
-    delimiter: ","
-    encoding: "utf-8"
-    
-  # Sample data for testing
-  sample:
-    enabled: true
-    num_products: 100
-    date_range_days: 90
-
-# ============================================
-# SECRET MANAGER SETTINGS
-# ============================================
-secrets:
-  api_keys:
-    tokopedia: "projects/YOUR_PROJECT/secrets/tokopedia-api-key/versions/latest"
-    shopee: "projects/YOUR_PROJECT/secrets/shopee-api-key/versions/latest"
+    paths:
+      products: "data/sample/products.csv"
+      transactions: "data/sample/transactions.csv"
+      tokopedia_reviews: "data/kaggle/tokopedia_product_reviews_2025.csv"
   
-  database:
-    connection_string: "projects/YOUR_PROJECT/secrets/db-connection/versions/latest"
+  # API Configuration (jika tersedia)
+  api:
+    enabled: false
+    endpoints:
+      tokopedia: "https://api.tokopedia.com"
+      shopee: "https://api.shopee.co.id"
 
 # ============================================
-# MONITORING & ALERTING SETTINGS
+# SECRETS MANAGEMENT - FREE ALTERNATIVE
+# ============================================
+# Secret Manager memerlukan billing
+# Gunakan .env files atau GitHub Secrets
+secrets:
+  method: "environment_variables"
+  template_file: ".env.template"
+  required_secrets:
+    - "GCP_PROJECT_ID"
+    - "GCS_BUCKET"
+    - "BQ_DATASET"
+
+# ============================================
+# MONITORING & LOGGING (FREE TIER)
 # ============================================
 monitoring:
-  # Log retention
-  log_retention_days: 30
-  
-  # Alert policies
+  enabled: true
+  metrics:
+    - "bigquery/query/count"
+    - "storage/object_count"
   alerts:
-    function_errors:
-      enabled: true
-      threshold: 3
-      duration_seconds: 300
-      notification_channels: ["email"]
-      
-    high_bigquery_cost:
-      enabled: true
-      threshold: 10  # USD per day
-      notification_channels: ["email"]
-      
-    storage_quota:
-      enabled: true
-      threshold_percent: 80
-      notification_channels: ["email"]
-  
-  # Notification channels
-  notification_channels:
-    email:
-      - "admin@example.com"
-      - "ops@example.com"
+    error_rate_threshold: 0.1
+
+logging:
+  level: "INFO"
+  include_trace: true
 
 # ============================================
 # LOOKER STUDIO SETTINGS
 # ============================================
-looker:
-  dashboard:
-    name: "UMKM Analytics Dashboard"
-    refresh_interval_minutes: 60
-    
-  reports:
-    executive:
-      name: "Executive Summary"
-      enabled: true
-      
-    price_analysis:
-      name: "Price Analysis"
-      enabled: true
-      
-    sales_trend:
-      name: "Sales Trend"
-      enabled: true
-      
-    predictions:
-      name: "ML Predictions"
-      enabled: true
+looker_studio:
+  dashboard_name: "UMKM Analytics Dashboard"
+  data_sources:
+    - dataset: "umkm_analytics"
+      table: "daily_summary"
+    - dataset: "umkm_analytics"
+      table: "tokopedia_reviews"
 
 # ============================================
-# SECURITY SETTINGS
+# FREE TIER NOTES
 # ============================================
-security:
-  # Service Accounts
-  service_accounts:
-    cloud_function:
-      name: "cloud-function-sa"
-      roles:
-        - "roles/storage.objectCreator"
-        - "roles/bigquery.dataEditor"
-        - "roles/pubsub.publisher"
-        
-    # Note: Composer SA not needed for free tier
-    # composer:
-    #   name: "composer-sa"
-    #   roles:
-    #     - "roles/bigquery.dataEditor"
-    #     - "roles/storage.objectAdmin"
-        
-    looker:
-      name: "looker-sa"
-      roles:
-        - "roles/bigquery.dataViewer"
-  
-  # Secrets Management (FREE TIER: Use Environment Variables)
-  # Instead of Secret Manager, use:
-  # 1. Cloud Functions environment variables
-  # 2. .env file for local development
-  # 3. GitHub Secrets for CI/CD
-  secrets_alternative: "environment_variables"
-
-# ============================================
-# COST OPTIMIZATION SETTINGS
-# ============================================
-cost_optimization:
-  # Budget alerts
-  budget:
-    amount: 200  # USD per month
-    threshold_percents: [50, 80, 100]
-    
-  # Auto-scaling
-  autoscaling:
-    enabled: true
-    min_instances: 1
-    max_instances: 10
-    
-  # Data lifecycle
-  lifecycle_rules:
-    - action: "Delete"
-      condition:
-        age_days: 365
-        matches_prefix: ["archive/"]
-
-# ============================================
-# TESTING & DEVELOPMENT SETTINGS
-# ============================================
-testing:
-  # Test mode (menggunakan sample data)
-  test_mode: false
-  
-  # Development endpoints
-  dev:
-    use_emulators: false
-    bigquery_project: "dev-project"
-    storage_bucket: "dev-umkm-data-lake"
-
-# ============================================
-# FEATURE FLAGS
-# ============================================
-features:
-  ml_predictions: true
-  anomaly_detection: false  # Coming soon
-  real_time_processing: false  # Coming soon
-  advanced_analytics: true
-  email_reports: true
-  slack_notifications: false
-
-# ============================================
-# LOGGING SETTINGS
-# ============================================
-logging:
-  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
-  format: "json"
-  
-  # Log specific components
-  components:
-    cloud_function: "INFO"
-    composer: "INFO"
-    bigquery: "WARNING"
-
-# ============================================
-# PERFORMANCE SETTINGS
-# ============================================
-performance:
-  bigquery:
-    # Maximum bytes billed per query
-    maximum_bytes_billed: 10737418240  # 10 GB
-    
-    # Use BI Engine
-    use_bi_engine: false
-    bi_engine_capacity_gb: 0
-    
-  composer:
-    # Worker concurrency
-    worker_concurrency: 16
-    parallelism: 32
-
-# ============================================
-# BACKUP & DISASTER RECOVERY
-# ============================================
-backup:
-  enabled: true
-  
-  bigquery:
-    snapshot_schedule: "0 0 * * *"  # Daily at midnight
-    retention_days: 7
-    
-  storage:
-    versioning: true
-    
-  composer:
-    backup_schedule: "0 0 * * 0"  # Weekly on Sunday
+# Layanan yang TIDAK digunakan (memerlukan billing):
+#   - Cloud Composer (Airflow) → Gunakan Google Colab
+#   - Cloud Scheduler → Gunakan GitHub Actions
+#   - Secret Manager → Gunakan .env files
+#   - Cloud Build → Gunakan gcloud CLI
+#
+# Layanan FREE yang digunakan:
+#   - BigQuery (1TB query/bulan gratis)
+#   - Cloud Storage (5GB gratis)
+#   - Pub/Sub (10GB/bulan gratis)
+#   - Cloud Logging & Monitoring (50GB gratis)
